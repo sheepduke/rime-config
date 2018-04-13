@@ -1,0 +1,26 @@
+patch:
+  ascii_composer:
+    switch_key:
+        Shift_L: noop
+        
+  menu:
+    page_size: 5
+
+  style:
+    color_scheme: starcraft
+    horizontal: true
+    inline_preedit: true
+    corner_radius: 0
+
+  schema_list:  
+    - schema: wubi86
+
+  key_binder/bindings:
+    - {accept: "Shift+space", toggle: noop}
+    - {accept: "Control+period", toggle: noop}
+    - {when: has_menu, accept: "Control+p", send: Page_Up}
+    - {when: has_menu, accept: "Control+n", send: Page_Down}
+    - {when: composing, accept: "Control+f", send: Right}
+    - {when: has_menu, accept: "Control+f", send: Right}
+    - {when: composing, accept: "Control+b", send: Left}
+    - {when: has_menu, accept: "Control+b", send: Left}

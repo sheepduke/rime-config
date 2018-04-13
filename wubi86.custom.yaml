@@ -1,0 +1,7 @@
+patch:
+  # 关闭自动补全提示
+  translator/enable_completion: false
+  # 关闭用户词典
+  translator/enable_user_dict: false
+  # 关闭自动组词
+  translator/enable_sentence: false
