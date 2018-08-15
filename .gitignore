@@ -1,0 +1,7 @@
+*
+!.gitignore
+!.README.md
+!default.custom.yaml
+!wubi86.custom.yaml
+!wubi86.schema.yaml
+!wubi86_char.dict.yaml
