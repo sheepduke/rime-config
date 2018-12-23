@@ -4,4 +4,7 @@
 !default.custom.yaml
 !wubi86.custom.yaml
 !wubi86.schema.yaml
+!wubi86.dict.yaml
 !wubi86_char.dict.yaml
+!pinyin_simp.dict.yaml
+!pinyin_simp.schema.yaml
