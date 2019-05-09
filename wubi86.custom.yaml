@@ -1,6 +1,6 @@
 patch:
   # 关闭自动补全提示
-  translator/enable_completion: true
+  translator/enable_completion: false
 
   # 关闭用户词典
   translator/enable_user_dict: false
@@ -8,13 +8,12 @@ patch:
   # 关闭自动组词
   translator/enable_sentence: false
 
-  # # 使用单字码表
-  # # 该码表还修复了一些原码表中的问题（如kmy第一个候选是“唄”而不是“呗”）
+  # 使用单字码表
+  # 该码表还修复了一些原码表中的问题（如kmy第一个候选是“唄”而不是“呗”）
   # translator/dictionary: wubi86_char
 
-  # # 最大码长
-  # speller/max_code_length: 4
-  # # 顶字上屏
-  # speller/auto_select: true
-  # # 无重码自动上屏
-  # speller/auto_select_unique_candidate: true
+  # 最大码长
+  speller/max_code_length: 4
+  # 顶字上屏
+  speller/auto_select: true
+

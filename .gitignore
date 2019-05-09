@@ -1,6 +1,6 @@
 *
 !.gitignore
-!.README.md
+!README.md
 !default.custom.yaml
 !wubi86.custom.yaml
 !wubi86.schema.yaml
