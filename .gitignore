@@ -1,8 +1,13 @@
 *
+
 !.gitignore
 !README.md
+# Deafult files.
 !essay.txt
 !default.yaml
+!key_bindings.yaml
+!punctuation.yaml
+# Customization.
 !default.custom.yaml
 !symbols.yaml
 !wubi86.custom.yaml
