@@ -1,7 +1,7 @@
 *
 
 !.gitignore
-!README.md
+!README.org
 # Deafult files.
 !essay.txt
 !default.yaml
