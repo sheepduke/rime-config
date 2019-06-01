@@ -6,12 +6,12 @@
 
 ** Linux
 
-1. 将配置文件置于对应的路径下，在 Linux 发行版、iBus 框架下为~$HOME/.config/ibus/rime~。
+1. 将配置文件置于对应的路径下，在 Linux 发行版、iBus 框架下为 ~$HOME/.config/ibus/rime~。
 2. 修改 ~wubi86.custom.yaml~ 文件以开启/关闭单字码表、自动上屏等功能。
 3. 重新部署 Rime。有如下三种方法：
    1. 使用系统通知栏中的「部署」按钮。
-   2. 删除~build/~文件夹并运行~ibus-daemon -rdx~。
-   3. 在 Rime 文件夹下运行~rime_deployer --build .~命令。
+   2. 删除 ~build/~ 文件夹并运行 ~ibus-daemon -rdx~。
+   3. 在 Rime 文件夹下运行 ~rime_deployer --build .~ 命令。
 
 ** Android
 
