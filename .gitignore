@@ -1,6 +1,7 @@
 *
 !.gitignore
 !README.md
+!essay.txt
 !default.yaml
 !default.custom.yaml
 !symbols.yaml
