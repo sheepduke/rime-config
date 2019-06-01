@@ -1,7 +1,9 @@
 *
 !.gitignore
 !README.md
+!default.yaml
 !default.custom.yaml
+!symbols.yaml
 !wubi86.custom.yaml
 !wubi86.schema.yaml
 !wubi86.dict.yaml
