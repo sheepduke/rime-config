@@ -23,7 +23,7 @@ encoder:
       formula: "AaBaCaZa"
 ...
 # 自定义词库
-觉得	iptj	50001
+觉得	iptj	50000
 如果	vkjs	50000
 需要	fdsv	50000
 今天	wygd	50000
@@ -35,3 +35,17 @@ encoder:
 昨天	jtgd	50000
 时候	jfwh	50000
 知道	tdut	50000
+什么	wftc	50000
+命令	wgwy	50000
+时间	jfuj	50000
+问题	ukjg	50000
+辛苦	uyad	50000
+超级	fhxe	50000
+已经	nnxc	50000
+意思	ujln	50000
+哈哈	kwkw	50000
+呜呜	kqkq	50000
+简单	tuuj	50000
+星期	jtad	50000
+应该	yidd	50000
+大概	ddsv	50000
