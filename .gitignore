@@ -13,5 +13,6 @@
 !wubi86.schema.yaml
 !wubi86.dict.yaml
 !wubi86_char.dict.yaml
+!wubi86_char_user.dict.yaml
 !pinyin_simp.dict.yaml
 !pinyin_simp.schema.yaml

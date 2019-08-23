@@ -10,7 +10,7 @@ patch:
 
   # 使用单字码表
   # 该码表还修复了一些原码表中的问题（如kmy第一个候选是“唄”而不是“呗”）
-  translator/dictionary: wubi86_char
+  translator/dictionary: wubi86_char_user
 
   # 最大码长
   speller/max_code_length: 4

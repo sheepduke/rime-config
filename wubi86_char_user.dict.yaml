@@ -1,0 +1,37 @@
+---
+name: wubi86_char_user
+version: "0.1.0"
+use_preset_vocabulary: false
+max_phrase_length: 7
+min_phrase_weight: 100
+import_tables:
+  - wubi86_char
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+encoder:
+  exclude_patterns:
+    - '^z.*$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]
+      formula: "AaBaCaZa"
+...
+# 自定义词库
+觉得	iptj	50001
+如果	vkjs	50000
+需要	fdsv	50000
+今天	wygd	50000
+开始	gavc	50000
+自己	thnn	50000
+感觉	dgip	50000
+突然	pwqd	50000
+起来	fhgo	50000
+昨天	jtgd	50000
+时候	jfwh	50000
+知道	tdut	50000
