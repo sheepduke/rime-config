@@ -23,7 +23,7 @@
 ---
 name: wubi86_char
 version: "0.2015.6.11"
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 max_phrase_length: 7
 min_phrase_weight: 100
 sort: by_weight
