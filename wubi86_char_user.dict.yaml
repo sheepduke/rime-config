@@ -65,6 +65,7 @@ encoder:
 关系	udtx	50000
 # H
 哈哈	kwkw	50000
+好像	vbwq	50000
 嘿嘿	klkl	50000
 很多	tvqq	50000
 话说	ytyu	50000
@@ -87,10 +88,12 @@ encoder:
 可能	skce	50000
 看看	rhrh	50000
 考虑	ftha	50000
+可惜	skna	50000
 科学	tuip	50000
 # L
 浪费	iyxj	50000
 理解	gjqe	50000
+利用	tjet	50000
 浏览	iyjt	50000
 旅游	ytiy	50000
 # M
@@ -119,6 +122,7 @@ encoder:
 任务	wttl	50000
 容易	pwjq	50000
 如果	vkjs	50000
+如何	vkws	50000
 软件	lqwr	50000
 # S
 什么	wftc	50000
@@ -129,6 +133,7 @@ encoder:
 手机	rtsm	50000
 数据	ovrn	50000
 数学	ovip	50000
+思考	lnft	50000
 随便	bdwg	50000
 # T
 他们	wbwu	50000
@@ -154,6 +159,7 @@ encoder:
 陷阱	bqbf	50000
 相当	shiv	50000
 想法	shif	50000
+相关	shud	50000
 项目	adhh	50000
 想想	shsh	50000
 想象	shqj	50000
@@ -176,9 +182,10 @@ encoder:
 意思	ujln	50000
 意外	ujqh	50000
 意义	ujyq	50000
-应该	yidd	50000
+应该	yiyy	50000
 影响	jykt	50000
 应用	yiet	50000
+尤其	dnad	50000
 游戏	iyca	50000
 由于	mhgf	50000
 犹豫	qtcb	50000
@@ -189,6 +196,7 @@ encoder:
 怎么	thtc	50000
 自己	thnn	50000
 知道	tdut	50000
+直接	fhru	50000
 指针	rxqf	50000
 重要	tgsv	50000
 专家	fnpe	50000
