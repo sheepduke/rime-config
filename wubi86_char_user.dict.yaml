@@ -61,6 +61,8 @@ encoder:
 冬雪	tufv	50000
 # dou
 豆豆	gugu	50000
+# duo
+多少	qqit	50000
 # E
 而且	dmeg	50000
 # F
@@ -190,12 +192,17 @@ encoder:
 # tu
 突然	pwqd	50000
 # W
+# wan
 完全	pfwg	50000
+# wang
 网络	mqxt	50000
-问题	ukjg	50000
+# wen
+文档	yysi	50000
 文化	yywx	50000
 文件	yywr	50000
+问题	ukjg	50000
 文学	yyip	50000
+# wu
 呜呜	kqkq	50000
 # X
 喜欢	fkcq	50000
