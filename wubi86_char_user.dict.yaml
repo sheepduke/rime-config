@@ -31,6 +31,8 @@ encoder:
 办法	lwif	50000
 # bao
 保存	wkdh	50000
+# bei
+背景	uxjy	50000
 # ben
 本来	sggo	50000
 # bi
@@ -292,15 +294,25 @@ encoder:
 # yun
 运气	fcrn	50000
 # Z
+# zen
 怎么	thtc	50000
+# zi
 自己	thnn	50000
+# zheng
 正常	ghip	50000
+# zhi
 知道	tdut	50000
 直接	fhru	50000
+知识	tdyk	50000
 指针	rxqf	50000
+# zhong
 重要	tgsv	50000
+# zhuan
 专家	fnpe	50000
+# zhuang
 状态	uddy	50000
+# zu
+组织	xexk	50000
+# zuo
 昨天	jtgd	50000
 作业	wtog	50000
-组织	xexk	50000
