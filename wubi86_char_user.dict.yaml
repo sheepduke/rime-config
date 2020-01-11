@@ -206,6 +206,9 @@ encoder:
 技术	rfsy	50000
 继续	xoxf	50000
 
+# jia
+架构	lksq	50000
+
 # jian
 简单	tuuj	50000
 
@@ -397,6 +400,9 @@ encoder:
 探索	rpfp	50000
 忐忑	hngh	50000
 
+# tao
+讨论	yfyw	50000
+
 # tian
 天天	gdgd	50000
 
@@ -420,6 +426,7 @@ encoder:
 网络	mqxt	50000
 
 # wen
+文本	yysg	50000
 文档	yysi	50000
 文化	yywx	50000
 文件	yywr	50000
@@ -452,6 +459,7 @@ encoder:
 想象	shqj	50000
 
 # xiao
+效率	uqyx	50000
 小时	ihjf	50000
 小说	ihyu	50000
 小雪	ihfv	50000
@@ -514,6 +522,7 @@ encoder:
 
 # yuan
 原理	drgj	50000
+渊源	itid	50000
 
 # yun
 运气	fcrn	50000
@@ -530,8 +539,10 @@ encoder:
 
 # zheng
 正常	ghip	50000
+整理	gkgj	50000
 
 # zhi
+支持	fcrf	50000
 知道	tdut	50000
 直接	fhru	50000
 知识	tdyk	50000
