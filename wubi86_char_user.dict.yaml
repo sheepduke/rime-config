@@ -77,6 +77,9 @@ encoder:
 # chi
 吃饭	ktqn	50000
 
+# chou
+抽象	rmqj	50000
+
 # chu
 出来	bmgo	50000
 
@@ -90,6 +93,7 @@ encoder:
 
 # da
 大概	ddsv	50000
+大家	ddpe	50000
 打算	rsth	50000
 
 # dai
@@ -102,6 +106,13 @@ encoder:
 # dao
 到底	gcyq	50000
 道理	utgj	50000
+
+# di
+低级	wqxe	50000
+
+# diao
+调用	ymet	50000
+调查	ymsj	50000
 
 # dong
 东西	aisg	50000
@@ -150,6 +161,7 @@ encoder:
 感谢	dgyt	50000
 
 # gao
+高级	ymxe	50000
 告诉	tfyr	50000
 
 # gen
@@ -157,6 +169,10 @@ encoder:
 
 # guan
 关系	udtx	50000
+
+# gui
+规定	fwpg	50000
+规范	fwai	50000
 
 # guo
 果然	jsqd	50000
@@ -208,6 +224,7 @@ encoder:
 
 # jia
 架构	lksq	50000
+假设	wnym	50000
 
 # jian
 简单	tuuj	50000
@@ -325,6 +342,7 @@ encoder:
 其它	adpx	50000
 
 # qing
+清楚	igss	50000
 情况	nguk	50000
 
 # que
@@ -449,6 +467,7 @@ encoder:
 
 # xian
 陷阱	bqbf	50000
+现实	gmpu	50000
 
 # xiang
 相当	shiv	50000
@@ -536,6 +555,9 @@ encoder:
 
 # zi
 自己	thnn	50000
+
+# zhen
+真正	fhgh	50001
 
 # zheng
 正常	ghip	50000
