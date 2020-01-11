@@ -87,12 +87,18 @@ encoder:
 复杂	tjvs	50000
 负责	qmgm	50000
 # G
+# gan
 尴尬	dndn	50000
 感觉	dgip	50000
 干啥	fgkw	50000
 感谢	dgyt	50000
+# gao
 告诉	tfyr	50000
+# gen
+根据	svrn	50000
+# guan
 关系	udtx	50000
+# guo
 果然	jsqd	50000
 # H
 哈哈	kwkw	50000
@@ -117,6 +123,7 @@ encoder:
 # jiao
 角度	qeya	50000
 # jie
+结构	xfsq	50000
 解决	qeun	50000
 接口	rukk	50000
 解释	qeto	50000
@@ -259,6 +266,7 @@ encoder:
 星期	jtad	50000
 形容	gapw	50000
 # xu
+需求	fdfi	50000
 需要	fdsv	50000
 # xuan
 渲染	ipiv	50000
