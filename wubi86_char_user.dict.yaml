@@ -124,6 +124,9 @@ encoder:
 # dou
 豆豆	gugu	50000
 
+# duan
+锻炼	qwoa	50000
+
 # duo
 多少	qqit	50000
 
@@ -213,6 +216,7 @@ encoder:
 环境	ggfu	50000
 
 # hui
+回复	lktj	50000
 回家	lkpe	50000
 回来	lkgo	50000
 回去	lkfc	50000
@@ -390,6 +394,8 @@ encoder:
 
 # shen
 什么	wftc	50000
+神奇	pyds	50000
+身体	tmws	50000
 
 # shi
 市场	ymfn	50000
@@ -412,6 +418,9 @@ encoder:
 
 # si
 思考	lnft	50000
+
+# su
+速度	gkya	50000
 
 # sui
 随便	bdwg	50000
