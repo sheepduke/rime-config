@@ -12,8 +12,9 @@ patch:
     inline_preedit: true
     corner_radius: 0
 
-  schema_list:  
+  schema_list:
     - schema: wubi86
+    - schema: luna_pinyin_simp
 
   key_binder/bindings:
     - {accept: "Shift+space", toggle: noop}
