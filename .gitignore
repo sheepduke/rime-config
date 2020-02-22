@@ -6,9 +6,11 @@
 !default.yaml
 !key_bindings.yaml
 !punctuation.yaml
+!symbols.yaml
+!luna_pinyin.dict.yaml
+!luna_pinyin_simp.schema.yaml
 # Customization.
 !default.custom.yaml
-!symbols.yaml
 !wubi86.custom.yaml
 !wubi86.schema.yaml
 !wubi86.dict.yaml
