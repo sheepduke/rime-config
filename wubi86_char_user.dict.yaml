@@ -397,6 +397,7 @@ encoder:
 
 # qing
 清楚	igss	50000
+请教	ygft	50000
 情况	nguk	50000
 
 # que
@@ -650,6 +651,9 @@ encoder:
 
 # zhong
 重要	tgsv	50000
+
+# zhu
+注意	iyuj	50000
 
 # zhuan
 专家	fnpe	50000
