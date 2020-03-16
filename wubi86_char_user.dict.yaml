@@ -240,6 +240,7 @@ encoder:
 环境	ggfu	50000
 
 # hui
+回答	lktw	50000
 回复	lktj	50000
 回家	lkpe	50000
 回来	lkgo	50000
@@ -400,6 +401,10 @@ encoder:
 
 # qian
 嵌套	madd	50000
+
+# qiang
+强烈	xkgq	50000
+强硬	xkdg	50000
 
 # qing
 清楚	igss	50000
@@ -677,6 +682,9 @@ encoder:
 
 # zu
 组织	xexk	50000
+
+# zun
+遵守	uspf	50000
 
 # zuo
 昨天	jtgd	50000
