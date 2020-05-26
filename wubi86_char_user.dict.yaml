@@ -62,6 +62,7 @@ encoder:
 比较	xxlu	50000
 毕竟	xxuj	50000
 比如	xxvk	50000
+必须	nted	50000
 
 # bian
 编程	xytk	50000
@@ -233,6 +234,7 @@ encoder:
 # guan
 关系	udtx	50000
 关键	udqv	50000
+观点	cmhk	50000
 
 # gui
 规定	fwpg	50000
@@ -241,6 +243,7 @@ encoder:
 
 # guo
 果然	jsqd	50000
+过程	fptk	50000
 
 ######################################################################
 ##                                H                                 ##
@@ -290,6 +293,7 @@ encoder:
 # ji
 基本	adsg	50000
 技术	rfsy	50000
+技巧	rfag	50000
 继续	xoxf	50000
 
 # jia
@@ -493,6 +497,7 @@ encoder:
 
 # ri
 日本	jjsg	50000
+日常	jjip	50000
 
 # rong
 容易	pwjq	50000
@@ -518,6 +523,7 @@ encoder:
 
 # sheng
 声音	fnuj	50000
+生活	tgit	50000
 
 # shi
 市场	ymfn	50000
@@ -613,6 +619,7 @@ encoder:
 文件	yywr	50000
 文学	yyip	50000
 文字	yypb	50000
+文章	yyuj	50000
 问题	ukjg	50000
 问问	ukuk	50000
 
