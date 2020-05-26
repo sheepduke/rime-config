@@ -121,6 +121,9 @@ encoder:
 # dai
 代码	wadc	50000
 
+# dao
+道德	uttf	50000
+
 # dang
 当然	ivqd	50000
 当时	ivjf	50000
@@ -278,10 +281,12 @@ encoder:
 解决	qeun	50000
 接口	rukk	50000
 解释	qeto	50000
+结果	xfjs	50000
 
 # jin
 谨慎	yanf	50000
 今天	wygd	50000
+今晚	wyjq	50000
 紧张	jcxt	50000
 
 # jing
@@ -348,6 +353,9 @@ encoder:
 # man
 慢慢	njnj	50000
 
+# mei
+没有	imde	50000
+
 # mi
 密码	pndc	50000
 密钥	pnqe	50000
@@ -356,6 +364,7 @@ encoder:
 明白	jerr	50000
 明天	jegd	50000
 明确	jedq	50000
+明晚	jejq	50000
 命令	wgwy	50000
 
 # mo
@@ -526,6 +535,7 @@ encoder:
 
 # wang
 网络	mqxt	50000
+往往	tyty	50000
 
 # wei
 危险	qdbw	50000
@@ -581,6 +591,7 @@ encoder:
 信息	wyth	50000
 
 # xing
+形成	gadn	50000
 星期	jtad	50000
 形容	gapw	50000
 
@@ -611,6 +622,7 @@ encoder:
 页面	dmdm	50000
 
 # yi
+衣服	mqxt	50000
 已经	nnxc	50000
 依赖	wygk	50000
 意见	ujmq	50000
