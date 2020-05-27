@@ -13,10 +13,12 @@ patch:
     corner_radius: 0
 
   schema_list:
+    - schema: wubi98
     - schema: wubi86
     - schema: luna_pinyin_simp
 
   key_binder/bindings:
+    - {accept: "Shift+Alt", toggle: noop}
     - {accept: "Shift+space", toggle: noop}
     - {accept: "Control+period", toggle: noop}
     - {when: has_menu, accept: "Control+p", send: Page_Up}
