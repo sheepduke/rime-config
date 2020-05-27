@@ -89,6 +89,10 @@ encoder:
 # ce
 测试	imya	50000
 
+# chang
+常用	ipet	50000
+常常	ipip	50000
+
 # chao
 超级	fhxe	50000
 
@@ -110,6 +114,12 @@ encoder:
 
 # chu
 出来	bmgo	50000
+出去	bmfc	50000
+
+# chuan
+传言	wfyy	50000
+传说	wfyu	50000
+传奇	wfds	50000
 
 # cong
 从来	wwgo	50000
@@ -169,6 +179,9 @@ encoder:
 # duan
 锻炼	qwoa	50000
 
+# dui
+对应	cfyi	50000
+
 # duo
 多少	qqit	50000
 
@@ -184,6 +197,7 @@ encoder:
 
 # fan
 反正	rcgh	50000
+翻译	toyc	50000
 
 # fang
 方便	yywg	50000
@@ -224,6 +238,9 @@ encoder:
 高级	ymxe	50000
 告诉	tfyr	50000
 
+# ge
+各个	tkwh	50000
+
 # gen
 根本	svsg	50000
 根据	svrn	50000
@@ -254,6 +271,9 @@ encoder:
 
 # han
 函数	biov	50000
+
+# hang
+行业	tfog	50000
 
 # hao
 好像	vbwq	50000
@@ -369,6 +389,9 @@ encoder:
 # kuai
 快速	nngk	50000
 
+# kun
+困难	lscw	50000
+
 ######################################################################
 ##                                L                                 ##
 ######################################################################
@@ -383,6 +406,8 @@ encoder:
 理解	gjqe	50000
 利用	tjet	50000
 历史	dlkq	50000
+里面	jfdm	50000
+里头	jfud	50000
 
 # liu
 流程	iytk	50000
@@ -451,9 +476,14 @@ encoder:
 # peng
 朋友	eedc	50000
 
+# pin
+品质	kkrf	50000
+品性	kknt	50000
+
 # ping
 瓶颈	uaca	50000
 平时	gujf	50000
+平台	guck	50000
 
 # pu
 普通	uoce	50000
@@ -544,6 +574,7 @@ encoder:
 数据	ovrn	50000
 数学	ovip	50000
 数字	ovpb	50000
+数量	ovjg	50000
 舒服	wfeb	50000
 
 # shui
@@ -557,6 +588,7 @@ encoder:
 
 # su
 速度	gkya	50000
+素质	gxrf	50000
 
 # sui
 随便	bdwg	50000
@@ -582,7 +614,7 @@ encoder:
 # te
 特别	trkl	50000
 特定	trpg	50000
-特性	trnt	50001
+特性	trnt	50100
 
 # tian
 天气	gdrn	50000
@@ -640,6 +672,10 @@ encoder:
 嘻嘻	kfkf	50000
 洗澡	itik	50000
 
+# xia
+下面	ghdm	50100
+下去	ghfc	50000
+
 # xian
 陷阱	bqbf	50000
 现实	gmpu	50000
@@ -664,11 +700,13 @@ encoder:
 # xin
 辛苦	uyad	50000
 信息	wyth	50000
+信任	wywt	50000
 
 # xing
-形成	gadn	50000
 星期	jtad	50000
+形成	gadn	50000
 形容	gapw	50000
+形态	gady	50000
 
 # xu
 虚拟	harn	50000
@@ -705,6 +743,7 @@ encoder:
 意思	ujln	50000
 意外	ujqh	50000
 意义	ujyq	50000
+意识	ujyk	50000
 
 # ying
 应该	yiyy	50000
@@ -720,6 +759,7 @@ encoder:
 
 # yu
 语言	ygyy	50000
+预约	cbxq	50000
 
 # yuan
 原理	drgj	50000
@@ -745,24 +785,28 @@ encoder:
 # zheng
 正常	ghip	50000
 整理	gkgj	50000
+政府	ghyw	50000
 
 # zhi
 支持	fcrf	50000
 知道	tdut	50000
 指定	rxpg	50000
+指针	rxqf	50000
 直接	fhru	50000
 之前	ppue	50000
 知识	tdyk	50000
-指针	rxqf	50000
+质量	rfjg	50000
 
 # zhong
 重要	tgsv	50000
+重点	tghk	50000
 
 # zhu
 注意	iyuj	50000
 
 # zhuan
 专家	fnpe	50000
+专业	fnog	50000
 
 # zhuang
 状态	uddy	50000
@@ -772,6 +816,8 @@ encoder:
 
 # zi
 自己	thnn	50000
+资料	uqou	50000
+资源	uqid	50000
 
 # zu
 组织	xexk	50000
