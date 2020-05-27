@@ -8,6 +8,8 @@ patch:
   # 关闭自动组词
   translator/enable_sentence: false
 
+  translator/dictionary: wubi98_user
+  
   # 最大码长
   speller/max_code_length: 4
   # 顶字上屏
