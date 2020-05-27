@@ -1,0 +1,18 @@
+---
+name: wubi98_user
+version: "1.0"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+  - stem
+import_tables:
+  - wubi98
+...
+
+闸	ul	1107509	ulk
+曾	ul	1107510	uljf
+
+乡	xt	1107347	xte
+张	xt	1107348	xtay
