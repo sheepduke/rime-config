@@ -44,7 +44,7 @@ speller:
   #max_code_length: 4
 
 translator:
-  dictionary: wubi86
+  dictionary: wubi98
   enable_charset_filter: true
   enable_sentence: true
   enable_encoder: true
