@@ -11,12 +11,15 @@ import_tables:
   - wubi98
 ...
 
-闸	ul	1107509	ulk
 曾	ul	1107510	uljf
+闸	ul	1107509	ulk
 
-乡	xt	1107347	xte
 张	xt	1107348	xtay
+乡	xt	1107347	xte
 
 说	yu	1107297	yuk
 详	yu	1107296	yuh
 帝	yu	1107295	yuph
+
+度	oa	1107821	oaci
+席	oa	1107820	oamh
