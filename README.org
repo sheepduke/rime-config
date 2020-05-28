@@ -7,7 +7,7 @@
 ** Linux
 
 1. 将配置文件置于对应的路径下，在 Linux 发行版、iBus 框架下为 ~$HOME/.config/ibus/rime~ 。
-2. 修改 ~wubi86.custom.yaml~ 文件以开启/关闭单字码表、自动上屏等功能。
+2. 修改 ~wubi86.custom.yaml/wubi98.custom.yaml~ 文件以开启/关闭单字码表、自动上屏等功能。
 3. 重新部署 Rime。有如下三种方法：
    1. 使用系统通知栏中的「部署」按钮。
    2. 删除 ~build/~ 文件夹并运行 ~ibus-daemon -rdx~ 。
@@ -23,17 +23,43 @@
 
 ** ~default.custom.yaml~
 
-Rime 自己的自定义文件。
+在这里定制 Rime。
 
-** ~wubi86_char.dict.yaml~
+** 五笔86
 
-五笔单字码表。
+*** ~wubi86.schema.yaml~
 
-** ~wubi86_char_user.dict.yaml~
+五笔86方案文件。
+
+*** ~wubi86.custom.yaml~
+
+五笔86自定义文件。四字上屏、唯一上屏等功能可以在这里定制。
+
+*** ~wubi86.dict.yaml~
+
+自带的五笔86码表。
+
+*** ~wubi86_char.dict.yaml~
+
+五笔86单字码表。
+
+*** ~wubi86_char_user.dict.yaml~
 
 用户词库。我发现单字模式加个人词库可以在确定性和输入效率之间取得一个平衡。个人
 常用的高频词语可以在这个文件中添加。
 
-** ~wubi86.custom.yaml~
+** 五笔98
 
-五笔自定义文件。四字上屏、唯一上屏等功能可以在这里定制。
+后来我发现，五笔98在拆字、输入效率上比五笔86更顺手，遂改用五笔98。
+
+*** ~wubi98.schema.yaml~
+
+五笔98方案文件。
+
+*** ~wubi98.custom.yaml~
+
+五笔98自定义文件。自定义文件。四字上屏、唯一上屏等功能可以在这里定制。
+
+*** ~wubi98.dict.yaml~
+
+五笔98码表。从五笔86的码表里引入了以 ~ZZ~ 开头输入符号的功能。
