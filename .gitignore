@@ -1,6 +1,7 @@
 *
 !.gitignore
 !README.org
+
 # Deafult files.
 !essay.txt
 !default.yaml
@@ -9,6 +10,7 @@
 !symbols.yaml
 !luna_pinyin.dict.yaml
 !luna_pinyin_simp.schema.yaml
+
 # Customization.
 !default.custom.yaml
 !wubi86.custom.yaml
@@ -22,3 +24,6 @@
 !wubi98.schema.yaml
 !wubi98.dict.yaml
 !wubi98_user.dict.yaml
+
+# Android.
+!trime.yaml
