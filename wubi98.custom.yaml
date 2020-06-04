@@ -10,6 +10,11 @@ patch:
 
   # 最大码长
   speller/max_code_length: 4
+  
   # 顶字上屏
   speller/auto_select: true
 
+  # 分号、引号上屏第二、三侯选词
+  key_binder/bindings:
+  - {when: has_menu, accept: semicolon, send: 2}
+  - {when: has_menu, accept: apostrophe, send: 3}
