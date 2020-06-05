@@ -319,6 +319,7 @@ preset_keyboards:
     - {click: '8', long_click: '*'}
     - {click: '9', long_click: '('}
     - {click: '0', long_click: ')'}
+    
     - {click: 'q', long_click: '`'}
     - {click: 'w', long_click: '~'}
     - {click: 'e', long_click: '-'}
@@ -327,19 +328,21 @@ preset_keyboards:
     - {click: 'y', long_click: '+'}
     - {click: 'u', long_click: '\'}
     - {click: 'i', long_click: '|'}
-    - {click: 'o', long_click: '{}{Left}'}
-    - {click: 'p', long_click: 'p'}
+    - {click: 'o', long_click: '{'}
+    - {click: 'p', long_click: '}'}
+
     - {width: 5}
     - {click: 'a', long_click: select_all}
     - {click: 's', long_click: Home}
     - {click: 'd', long_click: End}
-    - {click: 'f', long_click: '"'}
+    - {click: 'f', long_click: Deploy}
     - {click: 'g', long_click: '['}
     - {click: 'h', long_click: ']'}
-    - {click: 'j', long_click: "'"}
+    - {click: 'j', long_click: '"'}
     - {click: 'k', long_click: ':'}
-    - {click: 'l', long_click: ';'}
-    - {width: 5}
+    - {click: 'l', long_click: Delete}
+    - {click: ';', long_click: "'", width: 5}
+    
     - {click: Shift_L, send_bindings: false, width: 15}
     - {click: 'z', long_click: Date}
     - {click: 'x', long_click: cut}
@@ -349,6 +352,7 @@ preset_keyboards:
     - {click: 'n', long_click: Left}
     - {click: 'm', long_click: Right}
     - {click: BackSpace, swipe_left: Escape, width: 15}
+    
     - {click: Mode_switch, long_click: Menu, width: 15}
     - {click: Keyboard_number, long_click: Color_switch}
     - {click: ',', long_click: '<'}
