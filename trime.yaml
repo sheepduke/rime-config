@@ -379,9 +379,9 @@ preset_keyboards:
     - {click: '-'}
 
     - {click: '*'}
-    - {click: '1'}
-    - {click: '2'}
-    - {click: '3'}
+    - {click: '1', long_click: cut}
+    - {click: '2', long_click: copy}
+    - {click: '3', long_click: paste}
     - {click: '+', long_click: '='}
 
     - {click: Keyboard_default}
