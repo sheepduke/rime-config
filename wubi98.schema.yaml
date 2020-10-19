@@ -34,6 +34,7 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@temp_en
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -65,6 +66,11 @@ reverse_lookup:
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
 
+temp_en:
+  tag: temp_en
+  prefix: ";"
+  tips: 〔英文〕
+
 punctuator:
   import_preset: default
 
@@ -75,3 +81,4 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "^z[a-z]*'?$"
+    temp_en: "^;.*$"
