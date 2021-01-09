@@ -81,6 +81,5 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/[a-z]+$"
-    # punct: "^/.*$"
     reverse_lookup: "^z[a-z]*'?$"
     temp_en: "^;.*$"
