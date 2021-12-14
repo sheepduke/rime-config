@@ -16,5 +16,6 @@ patch:
 
   # 分号、引号上屏第二、三侯选词
   key_binder/bindings:
+  - {when: has_menu, accept: z, send: 2}
   - {when: has_menu, accept: semicolon, send: 2}
   - {when: has_menu, accept: apostrophe, send: 3}
