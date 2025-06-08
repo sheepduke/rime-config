@@ -4,26 +4,36 @@ patch:
         Shift_L: noop
         
   menu:
+    # 候选词数量，最多支持 10 个
     page_size: 5
 
-  style:
-    color_scheme: starcraft
-    horizontal: true
-    inline_preedit: true
-    corner_radius: 0
-
   schema_list:
+    # 菜单中可选的方案列表，可根据喜好自行调整顺序，第一位为默认方案
+    - schema: wubi86_jidian             # 五笔
+    - schema: wubi86_jidian_pinyin      # 五笔拼音混输
+    - schema: wubi86_jidian_trad        # 五笔 - 简入繁出
+    - schema: wubi86_jidian_trad_pinyin # 五笔拼音混输 - 简入繁出
+    - schema: pinyin_simp               # 普通拼音
     - schema: wubi98
-    - schema: wubi86
     - schema: flypy_double
-    - schema: luna_pinyin_simp
 
   key_binder/bindings:
+    # 候选2用分号
+    - { when: has_menu, accept: semicolon, send: 2 }
+
+    # 候选3用单引号
+    - { when: has_menu, accept: apostrophe, send: 3 }
+
+    # 取消一些快捷键
     - {accept: "Shift+Alt", toggle: noop}
     - {accept: "Shift+space", toggle: noop}
     - {accept: "Control+period", toggle: noop}
+
+    # 上下翻页 C-p/C-n
     - {when: has_menu, accept: "Control+p", send: Page_Up}
     - {when: has_menu, accept: "Control+n", send: Page_Down}
+
+    # 左右移叆 C-f/C-b
     - {when: composing, accept: "Control+f", send: Right}
     - {when: has_menu, accept: "Control+f", send: Right}
     - {when: composing, accept: "Control+b", send: Left}

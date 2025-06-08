@@ -3,7 +3,7 @@
 
 schema:
   schema_id: pinyin_simp
-  name: 袖珍简化字拼音
+  name: '简体拼音'
   version: "0.8"
   author:
     - 佚名
@@ -76,7 +76,7 @@ reverse_lookup:
     - xlit/hspnz/一丨丿丶乙/
 
 punctuator:
-  import_preset: symbols
+  import_preset: default
 
 key_binder:
   import_preset: default
