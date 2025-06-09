@@ -1,0 +1,3 @@
+patch:
+  key_binder/bindings:
+  - {when: has_menu, accept: z, send: 2}
