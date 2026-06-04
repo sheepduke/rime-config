@@ -2,6 +2,10 @@ installation.yaml
 user.yaml
 
 build/
+sync/
+
 flypy_double.userdb/
+pinyin_simp.userdb/
+easy_english.userdb/
 
 .*
