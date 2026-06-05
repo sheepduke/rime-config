@@ -1,0 +1,22 @@
+{
+  "name": "pinyin",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "tiger_PYPhrases.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "group",
+      "dicts": [{
+        "type": "text",
+        "file": "tiger_PYPhrases.txt"
+      }, {
+        "type": "text",
+        "file": "tiger_PYCharacters.txt"
+      }]
+    }
+  }]
+}
