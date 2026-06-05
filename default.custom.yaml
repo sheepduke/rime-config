@@ -18,24 +18,14 @@ patch:
     # - schema: wubi86_jidian_trad_pinyin # 五笔拼音混输 - 简入繁出
 
 
-  key_binder/bindings:
+  key_binder/bindings/+:
     # 候选2用分号
     - { when: has_menu, accept: semicolon, send: 2 }
-
+    
     # 候选3用单引号
     - { when: has_menu, accept: apostrophe, send: 3 }
-
+    
     # 取消一些快捷键
     - {accept: "Shift+Alt", toggle: noop}
     - {accept: "Shift+space", toggle: noop}
     - {accept: "Control+period", toggle: noop}
-
-    # 上下翻页 C-p/C-n
-    - {when: has_menu, accept: "Control+p", send: Page_Up}
-    - {when: has_menu, accept: "Control+n", send: Page_Down}
-
-    # 左右移叆 C-f/C-b
-    - {when: composing, accept: "Control+f", send: Right}
-    - {when: has_menu, accept: "Control+f", send: Right}
-    - {when: composing, accept: "Control+b", send: Left}
-    - {when: has_menu, accept: "Control+b", send: Left}
