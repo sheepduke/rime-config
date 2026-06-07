@@ -2,7 +2,7 @@ schema:
   author:
     - {}
   dependencies:
-    - core2022  #自定义字集工具方案
+    - tiger_core2022  #自定义字集工具方案
     - PY_c  # 拼音方案
     - easy_english # 英文
   description: |
@@ -38,7 +38,7 @@ switches: # 0 默认关，1 默认开
   - options: [_keyboard_default, _keyboard_defaultbk, _keyboard_defaultwk]
     reset: 0
     states: [ 有刻, 半刻, 无刻 ]
-  - name: charset_comment_filter  #字符集提示
+  - name: tiger_charset_comment_filter  #字符集提示
     reset: 0  
     states: [ U区关, U区开 ]
   - name: udpf_switch
@@ -64,7 +64,7 @@ engine:
     - key_binder
     - speller
     - punctuator
-    - lua_processor@exe_processor #exe启动器
+    - lua_processor@tiger_exe_processor #exe启动器
     - selector
     - navigator
     - express_editor #计算
@@ -84,13 +84,13 @@ engine:
     - history_translator@historyDM2 # 重复上屏 电脑2
     - history_translator@historyDM3 # 重复上屏 电脑3
     - history_translator@historySJ # 重复上屏 手机
-    - lua_translator@number_translator # 数字转大写
-    - lua_translator@calculator_translator # 简易计算器
-    - lua_translator@shijian2_translator # 高级时间
+    - lua_translator@tiger_number_translator # 数字转大写
+    - lua_translator@tiger_calculator_translator # 简易计算器
+    - lua_translator@tiger_shijian2_translator # 高级时间
 
 
   filters:
-    - lua_filter@core2022  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
+    - lua_filter@tiger_core2022  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
     # - charset_filter@utf8
     # - charset_filter@gbk
     # - charset_filter@gb2312
@@ -101,8 +101,8 @@ engine:
     - simplifier@pinyin  #拼音滤镜
     - simplifier@chaifen #拆分滤镜
     - simplifier@emoji_cn  #表情滤镜
-    - lua_filter@charset_comment_filter #Unicode分区提示滤镜
-    - lua_filter@lua_unicode_display_filter #Unicode编码显示
+    - lua_filter@tiger_charset_comment_filter #Unicode分区提示滤镜
+    - lua_filter@lua_tiger_unicode_display_filter #Unicode编码显示
     - uniquifier #过滤重复
 
 speller:
@@ -159,7 +159,7 @@ key_binder:
     # - { accept: "Control+Shift+O", toggle: fanjian, when: composing }  # 繁简开关
     - { accept: "Control+p", toggle: pinyin, when: composing }  # PC 拼音开关
     - { accept: "Control+i", toggle: emoji_cn, when: composing }  # PC emoji开关
-    - { accept: "Control+u", toggle: charset_comment_filter, when: composing }  # PC Unicode分区开关
+    - { accept: "Control+u", toggle: tiger_charset_comment_filter, when: composing }  # PC Unicode分区开关
     - { accept: "Control+y", toggle: udpf_switch, when: composing }  #PC Unicode编码开关
     - { accept: "Control+h", toggle: extended_char, when: composing } # PC 自定字集开关
     - { accept: "Control+Shift+H", toggle: extended_char, when: composing } # PC 自定字集开关2
@@ -167,8 +167,8 @@ key_binder:
     # - { when: composing, accept: '&', toggle: emoji_cn } # 手机 emoji开关
     # - { when: composing, accept: '*', toggle: simplification } # 手机 繁简开关
     # - { when: composing, accept: '\', toggle: pinyin } # 手机 拼音开关
-    # - { when: composing, accept: '^', toggle: charset_comment_filter } # 手机 Unicode分区开关1
-    # - { when: composing, accept: '#', toggle: charset_comment_filter } # 手机 Unicode分区开关2
+    # - { when: composing, accept: '^', toggle: tiger_charset_comment_filter } # 手机 Unicode分区开关1
+    # - { when: composing, accept: '#', toggle: tiger_charset_comment_filter } # 手机 Unicode分区开关2
     # - { accept: "%", toggle: udpf_switch, when: composing }  #手机 Unicode编码开关
     # - { accept: "+", toggle: udpf_switch, when: composing }  #手机 Unicode编码开关
     # - { when: composing, accept: '_', toggle: extended_char} # 手机 自定字集开关1

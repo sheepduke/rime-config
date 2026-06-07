@@ -510,8 +510,8 @@ end
 
 
 --- charset comment filter
-local function charset_comment_filter(input,env)
-  local b = env.engine.context:get_option("charset_comment_filter")--开关状态
+local function tiger_charset_comment_filter(input,env)
+  local b = env.engine.context:get_option("tiger_charset_comment_filter")--开关状态
   for cand in input:iter() do
     if b then
      for s, r in pairs(charset) do
@@ -526,4 +526,4 @@ local function charset_comment_filter(input,env)
 end
 
 
-return charset_comment_filter
+return tiger_charset_comment_filter

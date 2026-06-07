@@ -77,7 +77,7 @@ end
 
 local function init(env)
   -- 当此组件被载入时，打开反查库，并存入 `coredb` 中
-  env.coredb = ReverseDb("build/core2022.reverse.bin")
+  env.coredb = ReverseDb("build/tiger_core2022.reverse.bin")
 end
 
 return { init = init, func = filter }

@@ -1,4 +1,4 @@
--- Rime Script >https://github.com/baopaau/rime-lua-collection/blob/master/calculator_translator.lua
+-- Rime Script >https://github.com/baopaau/rime-lua-collection/blob/master/tiger_calculator_translator.lua
 -- 簡易計算器（執行任何Lua表達式）
 --
 -- 格式：=<exp>
@@ -17,9 +17,9 @@
 -- 安装：
 -- - 將本文件保存至 <rime>/lua/
 -- - 在 <rime>/rime.lua 新增一行：
---   `calculator_translator = require("calculator_translator")`
+--   `tiger_calculator_translator = require("tiger_calculator_translator")`
 -- - 在 <rime>/<schema>.schema.yaml 新增：
---   `engine/translators/@next: lua_translator@calculator_translator`
+--   `engine/translators/@next: lua_translator@tiger_calculator_translator`
 --   `recognizer/patterns/expression: "^=.*$"`
 -- 註：
 -- - <rime> 替換爲RIME的共享目錄
@@ -370,7 +370,7 @@ end
 -- greedy：隨時求值（每次變化都會求值，否則結尾爲特定字符時求值）
 local greedy = true
 
-local function calculator_translator(input, seg)
+local function tiger_calculator_translator(input, seg)
   if string.sub(input, 1, 1) ~= "=" then return end
   
   local expfin = greedy or string.sub(input, -1, -1) == ";"
@@ -404,4 +404,4 @@ local function calculator_translator(input, seg)
   yield(Candidate("number", seg.start, seg._end, exp.."="..result, ""))
 end
 
-return calculator_translator
+return tiger_calculator_translator

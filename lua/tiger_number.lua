@@ -96,7 +96,7 @@ local function number2zh(num,t)
 	return result:gsub(wordFigure[1] .. wordFigure[1],wordFigure[1])
 end
 
-function number_translatorFunc(num)
+function tiger_number_translatorFunc(num)
 	local numberPart=splitNumPart(num)
 	local result={}
 	if numberPart.dot~="" then
@@ -115,7 +115,7 @@ end
 function translator(input, seg)
 	local str,num,numberPart
 	if string.match(input,"^(S+%d+)(%.?)(%d*)$")~=nil then
-		str = string.gsub(input,"^(%a+)", "")  numberPart=number_translatorFunc(str)
+		str = string.gsub(input,"^(%a+)", "")  numberPart=tiger_number_translatorFunc(str)
 		if #numberPart>0 then
 			for i=1,#numberPart do
 				yield(Candidate(input, seg.start, seg._end, numberPart[i][1],numberPart[i][2]))

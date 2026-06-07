@@ -7,10 +7,10 @@ unicode display filter
 
 使用步骤：
 0. 在rime.lua添加如下一行：
-lua_unicode_display_filter = require("unicode_display")  -- unicode显示滤镜
+lua_tiger_unicode_display_filter = require("tiger_unicode_display")  -- unicode显示滤镜
 
 1. 在方案“filters: #过滤器”中添加如下一行:
-    - lua_filter@lua_unicode_display_filter #lua unicode显示滤镜
+    - lua_filter@lua_tiger_unicode_display_filter #lua unicode显示滤镜
 
 2. 在方案“switches: #开关”中添加名为udpf_switch的开关,对本滤镜进行控制:
 例:
@@ -42,7 +42,7 @@ local function C2U(char)
     return unicode_h
 end
 
-local function unicode_display_filter(input, env)
+local function tiger_unicode_display_filter(input, env)
     local context = env.engine.context
     local input_text = context.input
     local udpf_switch = context:get_option("udpf_switch")
@@ -59,4 +59,4 @@ local function unicode_display_filter(input, env)
     end  --for
 end
 
-return unicode_display_filter
+return tiger_unicode_display_filter

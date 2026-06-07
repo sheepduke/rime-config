@@ -2,8 +2,8 @@
 Source:https://github.com/hchunhui/librime-lua/issues/35
 通过特定命令启动外部程序。
 
-※将"- lua_processor@exe_processor" 放在 engine/processors 里，并位于默认 selector 之前
-※rime.lua中 增加"exe_processor = require("exe")"
+※将"- lua_processor@tiger_exe_processor" 放在 engine/processors 里，并位于默认 selector 之前
+※rime.lua中 增加"tiger_exe_processor = require("exe")"
 
 
 --]] local function generic_open(dest)
