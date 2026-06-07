@@ -47,9 +47,6 @@ switches: # 0 默认关，1 默认开
   - name: ascii_punct
     reset: 0
     states: [ 。，, ．， ]
-  # - name: dz_ci  #过滤词组
-  #   reset: 0
-  #   states: [ 词组, 单字 ]
   - options: [_keyboard_default, _keyboard_defaultzj]
     reset: 0
     states: [ 助记关, 助记开 ]
@@ -94,7 +91,6 @@ engine:
 
   filters:
     - lua_filter@core2022  #自定义字集过滤lua；放在最上面完美解决简繁滤镜出错的问题
-    # - lua_filter@dz_ci  #过滤词组lua，单字模式
     # - charset_filter@utf8
     # - charset_filter@gbk
     # - charset_filter@gb2312
