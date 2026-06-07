@@ -40,7 +40,7 @@ patch:
   #style/layout/round_corner: 0 #高亮圆角
 
   # 竖排候选框超长时自动倒序
-  style/vertical_auto_reverse: false # 词版默认关闭，若想启用，在行首加上#即可
+  style/vertical_auto_reverse: false #词版默认关闭，若想启用，在行首加上#即可
 
   # #候选字体
   #style/font_face: "Consolas, Segoe UI Emoji, Noto Color Emoji, LXGW WenKai GB Screen, SimSun, SimSun-ExtB, SimSun-ExtG, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2, TH-Tshyn-P16"
