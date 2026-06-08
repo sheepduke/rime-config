@@ -185,7 +185,7 @@ recognizer:
     punct: "^/([0-9]0?|[A-Za-z]+)$"
     # uppercase: "" #中文状态大写锁定直接上屏
     reverse_lookup: "^`[a-z]*'?$"
-    easy_english: "^'[A-Z|a-z]*`?$"
+    easy_english: "^;[A-Z|a-z]*`?$"
     expression: "^=.*$"
 
 # menu:
@@ -253,7 +253,7 @@ emoji_cn:
 easy_english:
   dictionary: easy_english
   tag: easy_english
-  prefix: "'"
+  prefix: ";"
   tips: 〔En〕
   enable_completion: true
   enable_sentence: false
