@@ -21,6 +21,9 @@ patch:
     
     # 候选3用单引号
     - { when: has_menu, accept: apostrophe, send: 3 }
+
+    # Tab清屏
+    - { when: composing, accept: Tab, send: Escape } 
     
     # 取消一些快捷键
     - {accept: "Shift+Alt", toggle: noop}
