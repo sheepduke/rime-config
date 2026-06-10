@@ -15,7 +15,10 @@ patch:
     - schema: wubi86_jidian
     - schema: pinyin_simp
 
-  key_binder/bindings/+:
+  key_binder/bindings:
+    - { when: composing, accept: Control+p, send: Page_Up }
+    - { when: composing, accept: Control+n, send: Page_Down }
+
     # 候选2用分号
     - { when: has_menu, accept: semicolon, send: 2 }
     
