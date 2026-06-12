@@ -1,0 +1,26 @@
+# encoding: utf-8
+#
+# 靈明·句
+# 版本: 20260302
+#
+---
+name: "yuling_fluency"
+version: "20260302"
+sort: by_weight
+vocabulary: yuhao.essay
+import_tables:
+  # 以下是簡碼字詞，韻碼上屏
+  - yuhao/yuling.pop
+  # 以下是單字全碼，包括陸標、臺標、港標、兼容拆分
+  - yuhao/yuling.full
+  # 以下是高優先級用户自定义詞庫
+  - yuhao/yuhao.private
+  # 以下是字根提示
+  - yuhao/yuling.roots
+  # 以下是符號
+  - yuhao/yuhao.symbols
+columns:
+  - text
+  - code
+...
+

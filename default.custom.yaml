@@ -9,6 +9,7 @@ patch:
 
   schema_list:
     # 菜单中可选的方案列表，可根据喜好自行调整顺序，第一位为默认方案
+    - schema: yuling
     - schema: tiger
     - schema: double_pinyin
     - schema: wubi98

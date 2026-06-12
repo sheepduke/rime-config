@@ -1,0 +1,20 @@
+# encoding: utf-8
+#
+# 宇浩·繁簡通·全拼
+# 版本：20230516
+
+# 基於朙月拼音和袖珍簡化拼音
+# 兼容大陸簡體、大陸古籍繁體、臺灣繁體、香港繁體
+
+---
+name: "yuhao_quanpin"
+version: "20240516"
+sort: by_weight
+vocabulary: yuhao.essay
+columns:
+  - text
+  - code
+  - weight
+import_tables:
+  - yuhao_pinyin
+...

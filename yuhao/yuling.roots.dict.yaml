@@ -1,0 +1,271 @@
+# encoding: utf-8
+---
+name: "yuling.roots"
+version: "20260302"
+sort: original
+columns:
+  - text
+  - code
+...
+
+靈明字根編碼提示	/lm
+輸入對應大碼字母	/lm
+臣乂冖彐立门虫辛	/lmb
+丷䒑贝高丌纟金己鹿麻門山巳页已	/lmc
+早耳斤曲目鸟口皮舟乌雨	/lmd
+厂正亥一見母𧘇世女足牙頁衤	/lmf
+电丰艮弓厶气馬工申田阝幺由鱼	/lmg
+下髟長镸丁广黑钅隹矛了日身示予子走文曰	/lmh
+凵寸亻生風亠𬺰入三饣夂向	/lmj
+上咼宀彡白长車丑亍𠂤丿缶骨彳卩几力尚矢殳至亡穴	/lmk
+八不冊齒鬥月飛干古户十冂千毛末壬舌手止龰未夕	/lml
+爪车方瓜戈七牛尸豸𠂇戊心弋	/lmm
+僉貝人合西米食竹自囗兀小酉	/lmn
+巴灬巛川儿鬼火石甶臼	/lmp
+廾艹龷其又	/lmq
+言辰虎之见二丂來鹵马皿疒卜罒羊	/lmr
+也士廴九鳥豕土烏尤魚	/lms
+匕欠扌用丶	/lmt
+刀刂水氵巾且甫亦	/lmv
+爿犬讠革禾乙乚犭卯乃辶片夭	/lmw
+匚甲而面木禺	/lmx
+王大非夫糸瓦	/lmy
++ e = 臣	/lmb
++ i = 乂冖隶	/lmb
++ ji = 彐肀	/lmb
++ li = 立	/lmb
++ me = 门	/lmb
++ o = 虫	/lmb
++ xi = 辛	/lmb
++ a = 丷	/lmc
++ be = 贝	/lmc
++ ga = 高	/lmc
++ i = 丌金	/lmc
++ je = 㔾	/lmc
++ ji = 己	/lmc
++ lu = 鹿	/lmc
++ ma = 麻	/lmc
++ me = 門	/lmc
++ o = 	/lmc
++ sa = 山	/lmc
++ si = 巳	/lmc
++ ye = 页	/lmc
++ yi = 已	/lmc
++ a = 早	/lmd
++ je = 耳	/lmd
++ ji = 斤	/lmd
++ ku = 曲	/lmd
++ mu = 目	/lmd
++ na = 鸟	/lmd
++ o = 口〇	/lmd
++ pi = 皮	/lmd
++ vo = 舟	/lmd
++ wu = 乌	/lmd
++ yu = 雨	/lmd
++ a = 丆厂	/lmf
++ e = 正	/lmf
++ ha = 亥	/lmf
++ i = 一	/lmf
++ ja = 見	/lmf
++ ji = 彑	/lmf
++ mu = 母	/lmf
++ o = 	/lmf
++ si = 世	/lmf
++ u = 女	/lmf
++ vu = 足	/lmf
++ ya = 牙	/lmf
++ ye = 頁	/lmf
++ a = 电	/lmg
++ e = 丰	/lmg
++ ge = 艮	/lmg
++ go = 弓	/lmg
++ i = 厶	/lmg
++ ki = 气	/lmg
++ ma = 馬	/lmg
++ o = 工	/lmg
++ se = 申	/lmg
++ ta = 田	/lmg
++ ya = 幺	/lmg
++ yo = 由	/lmg
++ yu = 鱼	/lmg
++ a = 下	/lmh
++ ba = 髟	/lmh
++ ca = 長镸	/lmh
++ di = 丁丅	/lmh
++ ga = 广	/lmh
++ he = 黑	/lmh
++ i = 隹	/lmh
++ je = 孑	/lmh
++ la = 了	/lmh
++ ri = 日	/lmh
++ se = 身	/lmh
++ si = 示	/lmh
++ u = 予	/lmh
++ vi = 子	/lmh
++ vo = 走	/lmh
++ we = 文	/lmh
++ ye = 曰	/lmh
++ a = 凵	/lmj
++ ca = 屮	/lmj
++ cu = 寸	/lmj
++ e = 生	/lmj
++ fe = 風	/lmj
++ ga = 丱	/lmj
++ o = 亠	/lmj
++ ru = 入	/lmj
++ sa = 三	/lmj
++ u = 丩	/lmj
++ vi = 夊攵	/lmj
++ xa = 向	/lmj
++ a = 丄上咼宀彡	/lmk
++ ba = 白	/lmk
++ ca = 长	/lmk
++ ce = 車	/lmk
++ co = 丑	/lmk
++ cu = 亍	/lmk
++ di = 	/lmk
++ e = 丿	/lmk
++ fo = 缶	/lmk
++ gu = 骨	/lmk
++ i = 丨彳〢〣	/lmk
++ je = 卩	/lmk
++ ji = 几	/lmk
++ li = 力	/lmk
++ lo = 	/lmk
++ o = 	/lmk
++ sa = 尚	/lmk
++ si = 矢	/lmk
++ u = 殳	/lmk
++ vi = 至	/lmk
++ wa = 亡	/lmk
++ wu = 	/lmk
++ xe = 穴	/lmk
++ a = 八	/lml
++ bu = 不	/lml
++ ce = 冊	/lml
++ ci = 齒	/lml
++ do = 鬥	/lml
++ e = 月	/lml
++ fe = 飛	/lml
++ ga = 干	/lml
++ gu = 古	/lml
++ hu = 户戸	/lml
++ i = 十	/lml
++ jo = 冂	/lml
++ ka = 千	/lml
++ ma = 毛	/lml
++ mo = 末	/lml
++ re = 壬	/lml
++ se = 舌	/lml
++ so = 手	/lml
++ u = 戶	/lml
++ vi = 止	/lml
++ we = 未	/lml
++ xi = 夕	/lml
++ a = 爪	/lmm
++ ce = 车	/lmm
++ fa = 方	/lmm
++ ga = 瓜	/lmm
++ ge = 戈	/lmm
++ i = 七	/lmm
++ nu = 牛	/lmm
++ o = 癶	/lmm
++ si = 尸	/lmm
++ vi = 豸	/lmm
++ vo = 	/lmm
++ wu = 戊	/lmm
++ xi = 心	/lmm
++ yi = 弋	/lmm
++ a = 僉	/lmn
++ be = 貝	/lmn
++ e = 人	/lmn
++ he = 合	/lmn
++ i = 西	/lmn
++ mi = 米	/lmn
++ o = 	/lmn
++ si = 食	/lmn
++ u = 竹	/lmn
++ vi = 自	/lmn
++ we = 囗	/lmn
++ wu = 兀	/lmn
++ xa = 小⺌	/lmn
++ yo = 酉	/lmn
++ a = 勹巴	/lmp
++ ba = 灬	/lmp
++ ca = 巛巜川	/lmp
++ e = 儿	/lmp
++ i = 鬼	/lmp
++ o = 火	/lmp
++ si = 石	/lmp
++ u = 甶臼	/lmp
++ i = 卅卌廾艹	/lmq
++ ki = 其	/lmq
++ o = 又	/lmq
++ a = 丬言	/lmr
++ ce = 辰	/lmr
++ hu = 虍虎	/lmr
++ i = 之	/lmr
++ ja = 见	/lmr
++ je = 二⺀	/lmr
++ ka = 丂	/lmr
++ la = 來	/lmr
++ lu = 鹵	/lmr
++ ma = 马	/lmr
++ mi = 皿	/lmr
++ ne = 疒	/lmr
++ o = 	/lmr
++ pu = 卜	/lmr
++ wa = 罒	/lmr
++ ya = 羊	/lmr
++ ye = 业	/lmr
++ e = 也	/lms
++ i = 士廴	/lms
++ ju = 九	/lms
++ ka = 	/lms
++ la = 耂	/lms
++ me = 乜	/lms
++ na = 鳥	/lms
++ o = 尢	/lms
++ si = 豕	/lms
++ u = 土	/lms
++ vu = 	/lms
++ wu = 烏	/lms
++ yo = 尤	/lms
++ yu = 魚	/lms
++ i = 匕	/lmt
++ ka = 欠	/lmt
++ o = 用	/lmt
++ u = 丶乀	/lmt
++ a = 刀	/lmv
++ da = 	/lmv
++ i = 水氺	/lmv
++ ji = 巾	/lmv
++ ke = 且	/lmv
++ o = 	/lmv
++ u = 甫	/lmv
++ yi = 亦	/lmv
++ a = 爿犬	/lmw
++ ge = 革	/lmw
++ he = 禾	/lmw
++ i = 乙乚亅	/lmw
++ ka = 	/lmw
++ ma = 卯	/lmw
++ na = 乃	/lmw
++ o = 辶⻍	/lmw
++ pa = 片	/lmw
++ ya = 夭	/lmw
++ fa = 匚	/lmx
++ i = 习	/lmx
++ ja = 甲	/lmx
++ je = 而	/lmx
++ li = 里	/lmx
++ ma = 面	/lmx
++ u = 木朩	/lmx
++ yu = 禺	/lmx
++ a = 王	/lmy
++ da = 大	/lmy
++ di = 	/lmy
++ fe = 非	/lmy
++ fu = 夫	/lmy
++ i = 糸	/lmy
++ wa = 瓦	/lmy
