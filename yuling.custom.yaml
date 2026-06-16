@@ -1,0 +1,4 @@
+patch:
+  key_binder/bindings:
+    - { when: composing, accept: Control+p, send: Page_Up }
+    - { when: composing, accept: Control+n, send: Page_Down }

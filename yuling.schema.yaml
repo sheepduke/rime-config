@@ -99,6 +99,7 @@ engine:
     - ascii_segmentor
     - matcher
     - abc_segmentor
+    - affix_segmentor@temp_en
     - punct_segmentor
     - fallback_segmentor
   translators:
@@ -328,10 +329,16 @@ key_binder:
     - { when: always, accept: "Control+Shift+N", select: yuling_pop } # 切換靈明頂屏版
     - { when: always, accept: "Control+Shift+B", select: yuling_fluency } # 切換靈明語流版
 
+temp_en:
+  tag: temp_en
+  prefix: ";"
+  tips: 〔英文〕
+
 recognizer:
   import_preset: default
   patterns:
     uppercase: "^(?![`;]).*[A-Z][-_+.'0-9A-Za-z]*$"
     reverse_lookup: "^z([a-z]+?)*$"
     punct: "^/([0-9]0?|[A-Za-z]+)?$"
+    temp_en: "^;.*$"
     # number: "^[-+]?[0-9][,.:0-9]*[%]?$"
