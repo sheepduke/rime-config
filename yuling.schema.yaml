@@ -34,7 +34,7 @@ switches:
       - yuhao_charset_filter_tonggui
       - yuhao_charset_filter_harmonic
     states: [全部漢字, 僅常用字, 僅簡化字, 僅傳統字]
-    reset: 0
+    reset: 2
     # Control+Shift+O
   - name: yuhao_single_char_only_for_full_code
     states: [字詞同出, 全碼出單]
