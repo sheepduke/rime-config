@@ -1,7 +1,7 @@
 # encoding: utf-8
 #
 # 宇浩·繁简通
-# 版本: 20260302
+# 版本: 20260617
 
 # 朱宇浩 开发
 # Rime方案 forFudan <https://shurufa.app>
@@ -11,7 +11,7 @@
 
 ---
 name: "yuhao.symbols_inline"
-version: "20260302"
+version: "20260617"
 sort: original
 columns:
   - text

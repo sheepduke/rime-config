@@ -34,11 +34,11 @@ switches:
       - yuhao_charset_filter_tonggui
       - yuhao_charset_filter_harmonic
     states: [全部漢字, 僅常用字, 僅簡化字, 僅傳統字]
-    reset: 2
+    reset: 0
     # Control+Shift+O
   - name: yuhao_single_char_only_for_full_code
-    states: [字詞同出, 全碼出單]
-    reset: 0
+    states: [字詞同出, 主單模式]
+    reset: 1
     # Control+Shift+D
     # Tab
   - options:
@@ -121,6 +121,7 @@ engine:
     - lua_filter@*yuhao.yuhao_charset_prioritizer_tonggui
     - lua_filter@*yuhao.yuhao_charset_prioritizer_harmonic
     - lua_filter@*yuhao.yuhao_popper_hints
+    - lua_filter@*yuhao.yuhao_short_code_hint
     - lua_filter@*yuhao.yuhao_compatible_chaifen_filter
     - lua_filter@*yuhao.yuhao_chaifen_filter
     - uniquifier
@@ -208,7 +209,7 @@ yuhao_macro:
             states: [全部漢字, 僅常用字, 僅簡化字, 僅傳統字]
           - type: switch
             name: yuhao_single_char_only_for_full_code
-            states: [字詞同出, 全碼出單]
+            states: [字詞同出, 主單模式]
           - type: radio
             names: [yuhao_popper_hints, yuhao_autocompletion_filter]
             states: [預測提示, 精確匹配]
@@ -216,7 +217,7 @@ yuhao_macro:
             name: yuhao_hide_space_candidates
             states: [有空格簡, 無空格簡]
     help:
-      - { type: switch, name: yuhao_single_char_only_for_full_code, states: [☐字詞同出, ☑全碼出單] }
+      - { type: switch, name: yuhao_single_char_only_for_full_code, states: [☐字詞同出, ☑主單模式] }
       - { type: switch, name: yuhao_hide_space_candidates, states: [☐有空格簡, ☑無空格簡] }
       - { type: switch, name: yuhao_chaifen_source, states: [☐陸標拆分, ☑臺標拆分] }
       - { type: switch, name: full_shape, states: [☐半角, ☑全角] }

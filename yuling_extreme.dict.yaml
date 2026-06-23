@@ -1,11 +1,11 @@
 # encoding: utf-8
 #
 # 靈明·極
-# 版本: 20260302
+# 版本: 20260619
 #
 ---
 name: "yuling_extreme"
-version: "20260302"
+version: "20260619"
 sort: original
 import_tables:
   # 以下是簡碼字詞，空格上屏

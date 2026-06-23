@@ -1,6 +1,37 @@
+# 功能開關一鍵配置
+
 patch:
-  key_binder/bindings:
-    - { when: composing, accept: "Control+p", send: Page_Up }
-    - { when: composing, accept: "Control+n", send: Page_Down }
-    - { when: composing, accept: ";", send: 2 }
-    - { when: has_menu, accept: apostrophe, send: 3 }
+  ################
+  # 外觀默認設置 #
+  ################
+  # schema/name: 靈明輸入法  # 方案名
+  # menu/page_size: 6  # 每頁候選數量
+  # style/horizontal: true  # Windows 橫排候選欄
+  # style/candidate_list_layout: linear  # MacOS 橫排候選欄
+  # style/inline_preedit: false  # 候選欄内置於輸入界面(true)还是独立界面(false)
+  # style/preedit_type: preview  # 候選顯示字母(composition)还是候選(preview)
+  # style/inline_candidate: true  # MacOS 候選顯示字母(false)还是候選(true)
+  # style/layout/margin_x: -1 # Windows 關閉候選欄 
+  # style/alpha: 0.01  #  MacOS 隱藏候選欄
+  # style/font_face: Yuniversus, Arial, TH-Tshyn-P0, TH-Tshyn-P1, TH-Tshyn-P2  # 字體
+  #
+  # speller/auto_select: false  # 自動選擇唯一候選項(true)或否(false)
+  #
+  ####################
+  # 控制開關默認設置 #
+  ####################
+  # 以下開關，0爲第一個，1爲第二個，2爲第三個
+  #
+  switches/@0/reset: 1 # [原始排序, 常用字先, 簡化字先, 傳統字先]
+  switches/@1/reset: 2 # [全部漢字, 僅常用字, 僅簡化字, 僅傳統字]
+  switches/@2/reset: 0 # [字詞同出, 主單模式]
+  # switches/@3/reset: 2 # [隱藏注解, 二重詳解, 多重註解]
+  # switches/@4/reset: 1 # [預測提示, 精確匹配]
+  # switches/@5/reset: 1 # [有空格簡, 無空格簡]
+  # switches/@6/reset: 1 # [顯示兼容, 屏蔽兼容]
+  # switches/@7/reset: 1 # [陸拆提示, 臺拆提示]
+  # switches/@8/reset: 1 # [简保持, 简转繁]
+  # switches/@9/reset: 1 # [繁保持, 繁轉簡]
+  # switches/@10/reset: 1 # [中文, 西文]
+  # switches/@11/reset: 1 # [半角, 全角]
+  # switches/@12/reset: 1 # [。，, ．，]
