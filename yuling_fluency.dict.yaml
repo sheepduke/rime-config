@@ -1,11 +1,11 @@
 # encoding: utf-8
 #
 # 靈明·句
-# 版本: 20260619
+# 版本: 20260705
 #
 ---
 name: "yuling_fluency"
-version: "20260619"
+version: "20260705"
 sort: by_weight
 vocabulary: yuhao.essay
 import_tables:

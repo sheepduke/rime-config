@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "yuling.pop"
-version: "20260619"
+version: "20260705"
 sort: original
 columns:
   - text
@@ -91,6 +91,7 @@ columns:
 味	dle
 眼	dme
 唄	dne
+啥	dno
 吹	dta
 而且	dve
 需	dye
@@ -103,6 +104,7 @@ columns:
 再	flu
 万一	fpi
 型	fqu
+来	fvi
 婚	fwi
 引	ggi
 阵	gme
@@ -182,11 +184,13 @@ columns:
 有没有	mve
 在	mvu
 購	nbu
+簡單	nci
 算	ndi
 每天	nfa
 會	nfi
 途	nfo
 第一	ngi
+复杂	nhu
 个人	nke
 答案	nnu
 無	nqa
@@ -205,7 +209,11 @@ columns:
 學	pbi
 覺得	pbu
 够	pdi
+毁灭	pgo
+忽略	pko
+兒子	ppi
 周	pso
+鼠标	pvu
 花	qji
 共同	qlo
 藏	qme
@@ -240,6 +248,7 @@ columns:
 流行	vju
 淀	vki
 精神	vme
+数据	vmu
 酒	vno
 海	vnu
 沒有	vpe
@@ -250,6 +259,7 @@ columns:
 记得	wcu
 利	wha
 话	wle
+认为	wnu
 谋	wqu
 讲	wro
 那個	wsu

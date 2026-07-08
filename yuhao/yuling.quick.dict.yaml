@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "yuling.quick"
-version: "20260619"
+version: "20260705"
 sort: original
 columns:
   - text
@@ -32,7 +32,6 @@ columns:
 负责	bc
 免费	bd
 农村	bf
-建议	bj
 運動	bk
 意思	bl
 问题	bm
@@ -40,6 +39,7 @@ columns:
 色彩	bp
 堅持	bq
 写作	br
+建议	bs
 角度	bt
 绝对	cb
 纪录	cc
@@ -79,7 +79,6 @@ columns:
 需要	dy
 妇女	fb
 厕所	fc
-如果	fd
 互相	ff
 媽媽	fg
 好的	fh
@@ -87,7 +86,6 @@ columns:
 原因	fk
 殄	fl
 母亲	fm
-来了	fn
 万一	fp
 开始	fq
 妈妈	fr
@@ -114,7 +112,6 @@ columns:
 可能	hd
 钱包	hf
 应该	hg
-默默	hh
 锻炼	hj
 矛盾	hk
 钥匙	hl
@@ -173,7 +170,6 @@ columns:
 房子	lh
 同学	lj
 腡	lk
-朋友	ll
 毛病	lm
 欲望	ln
 腦子	lp
@@ -187,8 +183,6 @@ columns:
 惊喜	mc
 方面	mf
 發現	mg
-慢慢	mh
-爲什麽	mj
 怕是	mk
 怀疑	ml
 恢复	mm
@@ -199,38 +193,22 @@ columns:
 感觉	mw
 心理	mx
 觉得	nb
-簡單	nc
 算了	nd
-每天	nf
-第一	ng
-复杂	nh
 符合	nj
-个人	nk
 企业	nl
-数据	nm
-答案	nn
-無法	nq
 怎么	nr
-等等	ns
 今天	nt
 自己	nv
 因爲	nw
 当然	nx
-全部	ny
-覺得	pb
 顺便	pc
 句子	pd
 煩惱	pf
-毁灭	pg
 爆炸	ph
 炫耀	pj
-忽略	pk
-魅力	pl
 炒作	pn
-兒子	pp
 與其	pr
 研究	ps
-鼠标	pv
 带来	qb
 觀點	qd
 帶來	qf
