@@ -1,0 +1,51 @@
+# encoding: utf-8
+#
+# 卿雲·陆简
+# 版本: 20260302
+#
+---
+name: "yujoy_sc"
+version: "20260302"
+sort: original
+import_tables:
+  # 以下是簡碼字詞
+  - yuhao/yujoy_sc.quick
+  # 以下是單字全碼
+  - yuhao/yujoy.full
+  # 以下是用户私人詞庫
+  - yuhao/yuhao.private
+  # 以下是補首根小碼去重
+  - yuhao/yujoy.dedup
+  # 以下是字根提示
+  - yuhao/yujoy.roots
+  # 以下是宇浩極簡千詞詞庫
+  - yuhao/yuhao_yujoy_sc.words
+  # 以下是異寫字形兼容和港臺字形兼容
+  - yuhao/yujoy.compatible  # 異寫字形兼容區
+  - yuhao/yujoy.adjusted  # 港臺字形兼容區
+  # 以下是全碼詞庫
+  - yuhao/yujoy_sc.words
+  # - yuhao/yujoy_tc.words
+  # 以下是符號
+  - yuhao/yuhao.symbols
+  - yuhao/yuhao.symbols_inline
+  # 以下是擴展詞庫
+  - yuhao/yuhao.extended
+columns:
+  - text
+  - code
+encoder:
+  exclude_patterns:
+    - "^[a-z]$" # 一简
+    - "[^a-z]"
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 24]
+      formula: "AaBaCaZa"
+...
+宇浩
+卿云
+
