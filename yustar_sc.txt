@@ -1,7 +1,0 @@
-# Rime table
-#@/db_name	yustar_sc
-#@/db_type	tabledb
-#@/rime_version	1.13.1
-#@/tick	3
-屌	bluj	4
-十方	gitf	2
