@@ -39,3 +39,7 @@ patch:
   # yuhao_postpone_full_code/+:
   #   selected_chars: "束嫌存猪炸暑睹睛只另乘津糊袍饱書諸后掏眨壓緒"  # 後置漢字
   #   max_index: 3  # 最大後置位置
+
+  key_binder/bindings/+:
+    - { when: has_menu, accept: "Control+p", send: Page_Up }
+    - { when: has_menu, accept: "Control+n", send: Page_Down }
