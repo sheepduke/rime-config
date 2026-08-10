@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "yuling.five"
-version: "20260705"
+version: "20260718"
 sort: original
 columns:
   - text
@@ -45804,6 +45804,7 @@ columns:
 㒎	jfyyf
 飋	jfyyk
 丱	jga
+	jga
 牽	jgbsn
 𪺮	jgbsn
 畝	jgbtu
@@ -48814,7 +48815,6 @@ columns:
 𠇡	jvnxa
 𠐴	jvnyi
 𬽈	jvo
-直󠄆	jvo
 𘭍	jvo
 𠌎	jvpba
 𬊞	jvpba
@@ -58296,7 +58296,6 @@ columns:
 𣘼	ldjxu
 𲡖	ldjya
 𰥑	ldka
-直󠄃	ldka
 𱼏	ldkcb
 𩰝	ldkfn
 肿	ldki
@@ -58449,8 +58448,6 @@ columns:
 乹	ldwi
 乺	ldwi
 𦛖	ldwi
-直󠄁	ldwi
-直󠄂	ldwi
 𫹦	ldwjc
 真	ldwla
 𦝖	ldwle
@@ -59665,6 +59662,7 @@ columns:
 腶	ljjku
 𗺄	ljjrt
 內	ljjru
+內	ljjru
 𘣹	ljjsa
 腋	ljjtu
 𭀻	ljjwi
@@ -60581,7 +60579,6 @@ columns:
 博	lljcu
 𦛚	lljdo
 𱰙	llje
-直󠄅	lljfi
 𪧡	lljjc
 𲓜	lljo
 𘬽	lljo
@@ -60595,7 +60592,6 @@ columns:
 𭩇	llkgo
 𮌓	llki
 𰮋	llkji
-直󠄉	llkka
 𰏘	llkki
 𪏍	llkla
 𠡮	llkli
@@ -60674,7 +60670,6 @@ columns:
 𥀇	llrdp
 䏕	llre
 䏕	llre
-直󠄈	llrfi
 𨆕	llrfv
 𨞞	llrgu
 𫜰	llrja
@@ -62852,7 +62847,6 @@ columns:
 步	lvnxa
 𰍪	lvnxa
 直	lvo
-直󠄄	lvo
 直	lvo
 直	lvo
 脃	lvpa
@@ -67375,7 +67369,6 @@ columns:
 𥁓	mvdrm
 貈	mvdvo
 𲏖	mvdwi
-直󠄇	mvdwi
 𨒐	mvdwo
 𧳅	mvfdb
 貆	mvfhf
@@ -102642,6 +102635,7 @@ columns:
 𫙔	syrms
 𩹰	syrnb
 𳍺	syrns
+𳍘	syro
 𩷁	syrpa
 𩼟	syrpb
 𱆺	syrpb
@@ -102786,7 +102780,6 @@ columns:
 𩷌	sytxu
 𩶃	sytya
 魚	syu
-𳍘	syu
 ⿂	syu
 魛	syva
 𩻑	syvbl
@@ -105793,7 +105786,6 @@ columns:
 坒	ttsu
 批	ttti
 𢪲	ttti
-㐂󠄁	ttti
 𣢋	tttka
 𰅢	tttka
 揩	tttkb
@@ -111977,7 +111969,7 @@ columns:
 浩	vsdo
 㵙	vsdo
 𭃕	vsdo
-浩󠄁	vsdo
+浩	vsdo
 𪄣	vsdsn
 𣹵	vsdwi
 池	vse

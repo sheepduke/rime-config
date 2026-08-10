@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "yuling.full"
-version: "20260705"
+version: "20260718"
 sort: original
 columns:
   - text
@@ -45807,6 +45807,7 @@ columns:
 𩘢	jfyw	0
 㒎	jfyy	0
 丱	jga	0
+	jga	0
 牽	jgbs	46401
 𪺮	jgbs	0
 畝	jgbt	5800
@@ -48817,7 +48818,6 @@ columns:
 𠇡	jvnx	0
 𠐴	jvny	0
 𬽈	jvo	0
-直󠄆	jvo	0
 𘭍	jvo	0
 𠌎	jvpb	0
 𬊞	jvpb	0
@@ -58300,7 +58300,6 @@ columns:
 𣘼	ldjx	
 𲡖	ldjy	0
 𰥑	ldka	0
-直󠄃	ldka	0
 鬮	ldkb	0
 𱼏	ldkc	0
 肿	ldki	10355
@@ -58453,8 +58452,6 @@ columns:
 乹	ldwi	0
 乺	ldwi	0
 𦛖	ldwi	0
-直󠄁	ldwi	0
-直󠄂	ldwi	0
 鬫	ldwj	0
 𫹦	ldwj	0
 𦝖	ldwl	0
@@ -59668,6 +59665,7 @@ columns:
 腶	ljjk	0
 內	ljjr	103546
 𧨣	ljjr	
+內	ljjr	0
 𘣹	ljjs	0
 腋	ljjt	5996
 𤣼	ljjt	
@@ -59768,7 +59766,7 @@ columns:
 𦜵	ljnd	
 内	ljne	811903
 𠔿	ljne	0
-內	ljne	0
+內	ljne	
 膻	ljnf	754
 𦘽	ljnf	0
 𦛅	ljnf	0
@@ -60585,7 +60583,6 @@ columns:
 博	lljc	0
 𦛚	lljd	
 𱰙	llje	0
-直󠄅	lljf	0
 𪧡	lljj	0
 𲓜	lljo	0
 𘬽	lljo	0
@@ -60600,7 +60597,6 @@ columns:
 𮌓	llki	0
 𰮋	llkj	0
 𰏘	llkk	0
-直󠄉	llkk	0
 𠡮	llkl	0
 𣎡	llkl	0
 𪏍	llkl	0
@@ -60679,7 +60675,6 @@ columns:
 䏕	llre	0
 䏕	llre	0
 𨆕	llrf	0
-直󠄈	llrf	0
 𨞞	llrg	0
 𦙇	llrj	0
 𫜰	llrj	0
@@ -62856,7 +62851,6 @@ columns:
 步	lvnx	572652
 𰍪	lvnx	0
 直	lvo	922369
-直󠄄	lvo	0
 直	lvo	0
 直	lvo	0
 脃	lvpa	
@@ -67378,7 +67372,6 @@ columns:
 𭈸	mvdv	0
 𨒐	mvdw	0
 𲏖	mvdw	0
-直󠄇	mvdw	0
 𦑽	mvdx	0
 𧴜	mvdx	0
 𮈓	mvdy	0
@@ -102664,6 +102657,7 @@ columns:
 𩽐	syrn	0
 𫚁	syrn	0
 𳍺	syrn	0
+𳍘	syro	0
 𩷁	syrp	0
 𩷴	syrp	0
 𬵂	syrp	0
@@ -102797,7 +102791,6 @@ columns:
 𩷌	sytx	0
 𩶃	syty	0
 魚	syu	194685
-𳍘	syu	0
 ⿂	syu	0
 魛	syva	0
 𩻑	syvb	0
@@ -105804,7 +105797,6 @@ columns:
 坒	ttsu	0
 批	ttti	127604
 𢪲	ttti	0
-㐂󠄁	ttti	0
 揩	tttk	2894
 𣢋	tttk	0
 𰅢	tttk	0
@@ -111989,7 +111981,7 @@ columns:
 浩	vsdo	
 㵙	vsdo	0
 𭃕	vsdo	0
-浩󠄁	vsdo	0
+浩	vsdo	0
 𪄣	vsds	
 𣹵	vsdw	0
 池	vse	84041
@@ -112545,7 +112537,7 @@ columns:
 𬪵	vwdn	0
 浩	vwdo	70487
 𣷓	vwdo	0
-浩	vwdo	0
+浩	vwdo	
 𪄣	vwds	0
 𣽿	vwdy	0
 𗕸	vwfc	0

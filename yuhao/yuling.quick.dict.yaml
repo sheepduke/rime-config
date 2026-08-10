@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "yuling.quick"
-version: "20260705"
+version: "20260718"
 sort: original
 columns:
   - text
@@ -170,6 +170,7 @@ columns:
 房子	lh
 同学	lj
 腡	lk
+朋友	ll
 毛病	lm
 欲望	ln
 腦子	lp
@@ -240,10 +241,7 @@ columns:
 詳細	rr
 讀書	rs
 北京	rt
-認爲	rv
-這個	rw
 對於	ry
-垃圾	sb
 增加	sc
 臺灣	sd
 表现	sf
@@ -286,7 +284,6 @@ columns:
 具体	vl
 游戏	vm
 消息	vn
-沒有	vp
 满足	vq
 清楚	vs
 注意	vt
@@ -551,7 +548,7 @@ columns:
 謇	kql
 至少	kve
 徂	kvk
-韍	kwd
+韝	kwd
 窀	kxm
 窵	kxs
 徛	kyh
@@ -705,7 +702,7 @@ columns:
 䲁	sym
 鰮	syn
 鮈	syp
-鮎	syr
+鮜	syr
 鱚	sys
 鱂	syw
 捱	tfs

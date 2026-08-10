@@ -1,7 +1,7 @@
 # encoding: utf-8
 ---
 name: "yuling.words_essence"
-version: "20260705"
+version: "20260718"
 sort: original
 columns:
   - text
