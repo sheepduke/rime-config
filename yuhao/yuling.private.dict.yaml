@@ -1,0 +1,13 @@
+---
+name: "yuling.private"
+version: 20260820
+sort: original
+columns:
+  - text
+  - code
+  - weight
+  - other
+...
+呀	dfa
+啊	dgo
+哈	dne

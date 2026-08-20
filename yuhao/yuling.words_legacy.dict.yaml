@@ -8,10 +8,6 @@ columns:
   - weight
   - other
 ...
-呀	dfa
-啊	dgo
-哈	dne
-
 # 自动编码，取前两码
 # 取自yuling_sc.words.dict.yaml
 打字
