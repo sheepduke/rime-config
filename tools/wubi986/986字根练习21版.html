@@ -1,0 +1,912 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>986五笔字根练习21.0</title>
+<script>
+var root_map = {
+    "a": ["工", "戈", "弋", "廾", "艹", "󰌏", "󰊀", "廿", "󰁺", "匚", "󰀄", "󰀂", "󰀁", "󰌓", "七", "󰀃"],
+    "b": ["子", "了", "耳", "也", "阝", "卩", "󰁹", "󰂑", "凵", "乃", "孑", "巜", "󰋮", "󰀆"],
+    "c": ["又", "󰀉", "󰁻", "巴", "󰌄", "厶", "󰉵", "马", "馬", "󰆨", "󰁟", "󰁞", "󰀀", "󰆡", "󰋭"],
+    "d": ["大", "犬", "犭", "戊", "古", "石", "厂", "󰁼", "丆", "镸", "󰀍", "󰌥", "三"],
+    "e": ["月", "󰀑", "毛", "用", "彡", "⺧", "爫", "󰀓", "豸", "󰀔", "󰀕", "󰀖", "氏", "󰌐", "󰌊", "󰌣"],
+    "f": ["󰀛", "十", "士", "干", "土", "耂", "寸", "雨", "󰀙", "󰀟", "󰀠", "二"],
+    "g": ["王", "󰁽", "五", "一", "󰀞", "󰇎"],
+    "h": ["目", "󰀣", "上", "止", "龰", "走", "卜", "󰀥", "󰈍", "󰅅", "亅", "丨", "󰌤", "牜", "牛"],
+    "i": ["水", "氺", "󰀩", "󰀪", "小", "󰅡", "󰌔", "󰋯", "󰀧", "󰃆", "󰋸", "󰋶", "龸", "󰋲", "乑", "󰅞", "󰌑", "󰌗", "󰇲", "氵", "󰋬", "󰋿"],
+    "j": ["日", "曰", "󰀱", "早", "󰀰", "󰀮", "󰀯", "虫", "󰌨", "󰌩", "〢", "刂", "󰀚", "󰀲", "󰀎"],
+    "k": ["口", "川", "󰀸", "󰀜", "〣"],
+    "l": ["田", "甲", "⻊", "足", "囗", "四", "罒", "车", "車", "㐄", "󰀡", "󰀹", "󰀺", "皿", "󰀷"],
+    "m": ["山", "由", "󰋵", "󰀾", "贝", "貝", "冂", "󰀼", "󰀽", "几", "𠘨"],
+    "n": ["已", "巳", "己", "󰁃", "󰁄", "尸", "𠃜", "忄", "󰃤", "心", "㠯", "羽", "𡿨", "乙","乛","󰌎"],
+    "o": ["火", "󰌉", "󰁖", "󰁗","󰌦", "广", "󰁙", "灬", "米", "𠂭", "󰌀", "󰌍"],
+    "p": ["之", "辶", "廴", "冖", "宀", "󰌕", "󰋩", "󰌁"],
+    "q": ["金", "釒", "钅", "󰁜", "儿", "󰁚", "󰅇", "勹", "󰁡", "󰄾", "夕", "󰁝", "󰁢"],
+    "r": ["白", "手", "󰂀", "扌", "󰌖", "󰅕", "󰌂", "󰃼", "斤", "乂", "󰁤"],
+    "s": ["木", "朩", "丁", "覀", "西", "甫", "󰌧"],
+    "t": ["禾", "彳", "󰄍", "󰁿", "夂", "丿"],
+    "u": ["立", "辛", "六", "󰋼", "羊", "󰄝", "疒", "门", "門", "丷", "䒑", "丬", "󰁩","爿","⺀", "󰁨","冫","󰇳"],
+    "v": ["女", "刀", "九", "󰁮", "彐", "󰁬", "󰁭", "巛", "臼", "󰀗", "󰌠", "󰌙"],
+    "w": ["人", "亻", "八", "󰁯", "癶", "󰋰"],
+    "x": ["母", "毌", "彑", "黽", "󰁵", "匕", "󰁳", "󰁴", "󰌘", "󰅃", "弓", "纟", "󰁲", "幺", "糹"],
+    "y": ["言", "讠", "文", "亠", "󰁸", "吂", "󰁷", "方", "丶", "󰂃"],
+    "ei": ["舟"], "wv": ["飠"]
+}
+
+var hard_map = [
+        {"y":["这"]},
+        {"u":["着"]},
+        {"t":["我"]},
+        {"q":["多"]},
+        {"n":["心"]},
+        {"c":["又"]},
+        {"v":["她"]},
+        {"p": ["之"]},
+        {"hn": ["起"]},
+        {"vm": ["段"]},
+        {"ix": ["兆"]},
+        {"ej": ["昏"]},
+        {"fjb": ["都"]},
+        {"uo": ["州"]},
+        {"jw": ["其"]},
+        {"fx": ["老"]},
+        {"iq": ["光"]},
+        {"tsd": ["垂"]},
+        {"tnn": ["乌"]},
+        {"dm": ["而"]},
+        {"dl": ["面"]},
+        {"wkr": ["拿"]},
+        {"li":["踏"]},
+        {"lhn":["足"]},
+        {"fs":["博"]},
+        {"hmv":["虎"]},
+        {"kri": ["史"]},
+        {"dqk": ["狗"]},
+        {"uyj": ["养"]},
+        {"wob": ["今"]},
+        {"wp": ["令"]},
+        {"eh": ["片"]},
+        {"af": ["某"]},
+        {"hff": ["特"]},
+        {"qq": ["金"]},
+        {"ss": ["木"]},
+        {"oo": ["火"]},
+        {"ff": ["土"]},
+        {"kk": ["口"]},
+        {"jj": ["日"]},
+        {"ll": ["田"]},
+        {"mm": ["山"]},
+        {"ee": ["月"]},
+        {"gg": ["王"]},
+        {"rr": ["白"]},
+        {"hh": ["目"]},
+        {"nn": ["已"]},
+        {"etgn": ["毛"]},
+        {"afd": ["甘"]},
+        {"fw": ["夫"]},
+        {"aim": ["蔽"]},
+        {"ht": ["牛"]},
+        {"dkd": ["石"]},
+        {"ayi": ["弋"]},
+        {"gog":["亚"]},
+        {"rm": ["制"]},
+        {"akj": ["革"]},
+        {"le": ["男"]},
+        {"gjc": ["惠"]},
+        {"ci":["予"]},,
+        {"cis":["柔"]},
+        {"hd":["非"]},
+        {"cg":["鸟"]},
+        {"ewi":["脸"]},
+        {"xxx":["幺"]},
+        {"hb":["齿"]},
+        {"tht":["竹"]},
+        {"rnbe":["氖"]},
+        {"djy":["独"]},
+        {"tl":["年"]},
+        {"akw":["靴"]},
+        {"gp":["囊"]},
+        {"ute":["产"]},
+        {"bbd":["孕"]},
+        {"nfb":["那"]},
+        {"tmm":["微"]},
+        {"tmx":["徽"]},
+        {"wk":["合"]},
+        {"fyi":["寸"]},
+        {"yrb":["离"]},
+        {"eim":["般"]},
+        {"hog":["虚"]},
+        {"rw":["失"]},
+        {"skd":["束"]},
+        {"dnl":["盛"]},
+        {"knf":["哪"]},
+        {"ni":["以"]},
+        {"wni":["似"]},
+        {"tb":["秀"]},
+        {"en":["力"]},
+        {"bnt":["乃"]},
+        {"by":["及"]},
+        {"ny":["忙"]},
+
+        {"ne":["民"]},
+        {"nc":["发"]},
+        {"yfk":["言"]},
+        {"adn":["藏"]},
+        {"yyc":["该"]},
+        {"jr":["临"]},
+        {"woy":["伪"]},
+        {"pcu":["寒"]},
+        {"cj":["曹"]},
+        {"vij":["肃"]},
+        {"yve":["朗"]},
+        {"trx":["鹅"]},
+        {"rjx":["拽"]},
+        {"gug":["班"]},
+        {"ib":["学"]},
+        {"pg":["家"]},
+        {"yg":["主"]},
+        {"skni":["可以"]},
+        {"imel":["没有"]},
+        {"ilce":["不能"]},
+        {"ldoy":["因为"]},
+        {"inoq":["不以为然"]}
+
+    ]
+
+
+function main() {
+    raw_area = document.getElementById("raw_area")
+    user_input = document.getElementById("user_input")
+    main_top = document.getElementById("maintop")
+    speed_label = document.getElementById("speedlabel")
+    total_label = document.getElementById("totallabel")
+    speed_timer = null
+    word_count = 0
+    start_time = 0
+    cur_input_max = 0
+    cur_input_index = 0
+    cur_tab = 0
+    total_words = []
+    total_index = 0
+
+    display_release_note()
+}
+//
+
+function display_help() {
+    reset_timer()
+    clear_tabs_background(0)
+    clear_raw_area()
+    enable_user_input(false)
+    raw_area.style.fontSize = "20px"
+    raw_area.style.fontHeight = "20px"
+    var span = document.createElement("span")
+    span.innerText = hereDoc(function () {/*
+９８６五笔（五笔986版）编码遵循以下规则：（详细请参阅五笔986版说明书）
+
+能散不连，能连不交，直观为上，取大优先，字源规则，兼顾笔顺。
+
+　　一、常规汉字（键面字根以外的汉字）。输入方式为：前三个部件+末部件，不足四码加识别码。
+如：澎ifke，i是氵，f是士，k是口，e是彡。
+　　二、普通字根（无论本身是字还是偏旁部首）。报户口+首次末笔画取码，不足四码加空格，如：十fgh，f是因为十在f，g是横、h是竖。又如：犭dtnt，d是报户口，tnt是第一、第二、第末笔。
+　　三、单笔划输入。如丿ttll，丨hhll，乙nnll，这也是原版五笔的规则。
+　　四、单拆字根。本身是字根，但输入时需要拆解，属于特别规定，只有5个。
+　　　　石：丆 + 口 + D（识别码）
+　　　　言：亠 + 二 + 口
+　　　　寸：󰀛 + 丶 + I（识别码）
+　　　　犬：大 + 丶 + I
+　　　　弋：󰀁 + 丶 + I
+　　五、识别码规则。
+　　　　1.识别码取末字根末笔，而不是全字末笔，如束skd。事实上原版86五笔也是取末根末笔，只不过没有明确说明，也没有严格执行，让许多初学者误以为是全字末笔。例如：因识别码是I，戒识别码是K，足以说明问题。
+　　　　2.直观为上，如氕rnte而不是rntr。毋庸置疑，氕氧这类字是半包围结构，某些版本输入法却将它列为了上下结构。
+　　六、一简优化。
+　　　　原版五笔中某些字的字频远远配不上一简，比如民、产，民用心代替，心的二简让给忙，这样心避免大跨，忙的两次大跨减少为一次。产用着代替，详细请参阅986说明书。
+　　七、词组优化。
+　　　　原版五笔存在“我有不发以这为”一简与首码不相符的问题，给打词组带来困扰。
+　　　　986中“这”移到了Y，“心”代替“民”占N，“我”移到了T，“为”在O增加了󰌍字根。
+　　　　只有“有不”一简与拆分首码不一致，打词时用一简补L，如：没有imel  不好ilvb。
+
+    */})
+    raw_area.appendChild(span)
+}
+
+//功能选择
+function choose_root(val) {
+    clear_tabs_background(val)
+    enable_user_input(true)
+    raw_area.style.fontSize = "45px"
+    raw_area.style.fontHeight = "45px"
+    user_input.removeAttribute("disabled")
+    user_input.focus()
+    total_index = 0
+    word_count = 0
+    cur_tab = val
+    speed_label.innerText = "速度：0.00字/分"
+
+    var all_words
+    switch (val) {
+        case 1:
+            all_words = get_newWb_words('g', 'f', 'd', 's', 'a')
+            break
+        case 2:
+            all_words = get_newWb_words('h', 'j', 'k', 'l', 'm')
+            break
+        case 3:
+            all_words = get_newWb_words_('t', 'r', 'e', 'w', 'q','wv','ei')
+            break
+        case 4:
+            all_words = get_newWb_words('y', 'u', 'i', 'o', 'p')
+            break
+        case 5:
+            all_words = get_newWb_words_6('n', 'b', 'v', 'c', 'x','nv')
+            break
+        case 6:
+            all_words = get_all_words()
+            break
+        case 7:
+            all_words = get_hardWb_words()
+            break
+        default:
+            alert("impossible")
+    }
+
+    var option = get_option()
+    if (option == 0) {
+        total_words = all_words
+    } else if (option == 1) {
+        var arr = gen_shuttled(all_words.length)
+        for (var i = 0; i < arr.length; i++) {
+            arr[i] = all_words[arr[i]]
+        }
+        total_words = arr
+    } else {
+        var arr = gen_randoms(get_setup_count("total_count"), 0, all_words.length)
+        for (var i = 0; i < arr.length; i++) {
+            arr[i] = all_words[arr[i]]
+        }
+        total_words = arr
+    }
+
+    next_words()
+    key_hint()
+    total_label.innerText = "\t进度：0/" + total_words.length + "字"
+    
+    reset_timer()
+    //console.log("words: ", total_words.length)
+}
+//
+function display_86help() {
+    reset_timer()
+    clear_tabs_background(8)
+    clear_raw_area()
+    enable_user_input(false)
+    raw_area.style.fontSize = "20px"
+    raw_area.style.fontHeight = "20px"
+    var span = document.createElement("span")
+    span.innerText = hereDoc(function () {/*
+86用户快速上手。【更详细内容请入986五笔群获取,QQ群号1170494758】
+初转９８都会有很多不会拆的字，本方案因为吸收了９８的一些特点，所以８６用户同样会遇到一点小问题，不过相比原版９８来说，这真不是问题，现将一些容易困惑的字罗列。
+垂：丿󰌧。986特有拆法，彻底解决垂拆分争议。
+段：󰌙几（又）。986拆法,󰌙是986特有字根，与󰀗 󰌠一样都在V。
+面：丆囗（〢二）。98拆法。
+养：丶〢。986拆法。
+凹：丨⺄󰀽（一）。新世纪拆法。（凹凸在986中都有一简位）
+束：木口 D。98拆法，同理柬，朿。
+脑：月亠乂（凵）。98和新世纪拆法。
+盛：戊乛皿。98拆法。
+那：𠃌󰀠阝。98和新世纪拆法，注意，986中󰀠在F。
+聚：耳又乑。只有86的乑是不带上面一撇的。
+舟：ei。986拆法，EI无论手感还是离散都比te、tu、eu强。舟是补码字根，也可以理解成双码字根。
+跳：⻊󰌗󰌘，lix。规避兆书写顺序争议，提高离散，桃、踏也能拥有二简。
+夹：一丷大。能散不连，能连不交。
+最后，必须说明的是，986纠正了很多86中的笔顺错误，比如方、万、乃、力，所以在打这些字的时候要注意。万：一󰁡（gq），同理力（EN），乃（BNT），方万力乃最后一笔是丿，而“成瓦戈”最后一笔是丶。当亲遇到打不出的字时，不妨再看一遍字根表和本说明，相信一天之内就能上手。
+    */})
+    raw_area.appendChild(span)
+}
+//
+function display_98help() {
+    reset_timer()
+    clear_tabs_background(9)
+    clear_raw_area()
+    enable_user_input(false)
+    raw_area.style.fontSize = "20px"
+    raw_area.style.fontHeight = "20px"
+    var span = document.createElement("span")
+    span.innerText = hereDoc(function () {/*
+98用户快速上手。【更详细内容请入986五笔群获取,QQ群号1170494758】
+除去被移动的那些字根外，还需注意以下字的打法。
+垂：丿󰌧。986特有拆法，彻底解决垂拆分争议。
+光：󰋶儿。86拆法。
+来：一米。86和新世纪拆法。直观，不和平字抢二简gu。
+丑：乛土D。86拆法，干脆。
+凹：丨⺄󰀽（一）。新世纪拆法。（凹凸在986中都有一简位）
+商：󰋼冂（八口）。86拆法，类似的还有"旁"。
+兼：䒑彐󰁗。86和新世纪拆法，直观。
+未：二小i。86和新世纪拆法。
+段：󰌙几（又）。986拆法,󰌙是986特有字根，与󰀗󰌠一起放在V。
+气：󰅕⺄B。86和新世纪拆法。
+朱：󰅕小。86和新世纪拆法。
+丘：斤一D。86和新世纪拆法。
+卸：󰅕止卩。86和新世纪拆法。类似的还有缺、缶、摇等字。
+还：一󰋯（辶）。86拆法。
+求：󰀛󰀪丶。86拆法，能散不连。
+业：󰌉一。86和新世纪拆法，没有业字根，只有业头。
+制：󰅕冂（丨刂）。86和新世纪拆法。
+乐：󰅇小。86拆法。󰅇在Q。
+甘：卄二D。86和新世纪打法。
+臧：戊乚丆（丨）。986拆法，结合86理念和98字根。
+夫：二人。86和新世纪拆法。
+失：󰅕人。86和新世纪拆法。
+跳：⻊󰌗󰌘，lix。规避兆书写顺序争议，提高离散，桃、踏也能拥有二简，桃花、樱桃等组词手感大大加强。
+肃：彐小〢。86和新世纪拆法。减少部件数。
+舟：ei。986拆法，EI无论手感还是离散都比te、tu、eu强。舟是补码字根，也可以理解成双码字根。
+    */})
+    raw_area.appendChild(span)
+}
+//
+function display_06help() {
+    reset_timer()
+    clear_tabs_background(10)
+    clear_raw_area()
+    enable_user_input(false)
+    raw_area.style.fontSize = "20px"
+    raw_area.style.fontHeight = "20px"
+    var span = document.createElement("span")
+    span.innerText = hereDoc(function () {/*
+新世纪用户快速上手。【更详细内容请入986五笔群获取,QQ群号1170494758】
+新世纪拆分很多以笔顺为主。考虑到笔顺的规定是会变的（比如母、万、方、里、火、重，忄等字或部首的笔顺就改过），所以本方案的拆分规则是能散不连、能连不交、直观为上、取大优先，兼顾笔顺。同时为了减少重码，能少拆部件就少拆部件。
+垂：丿󰌧。986特有拆法，彻底解决垂拆分争议。
+段：󰌙几（又）。986拆法,󰌙是986特有字根，与󰀗󰌠一起放在V。
+光：󰋶儿。86拆法。
+武：一弋止。86、98拆法。止戈为武。
+丑：乛土D。86拆法，干脆。
+商：󰋼冂（八口）。86拆法，类似的还有"旁"。
+还：一󰋯（辶）。86拆法。
+求：󰀛󰀪丶。86拆法，能散不连。
+乐：󰅇小。86拆法。
+臧：戊乚丆（丨）。986拆法，结合86理念和98字根。
+跳：⻊󰌗󰌘，lix。规避兆书写顺序争议，提高离散，桃、踏也能拥有二简，桃花、樱桃等组词手感大大加强。
+舟：ei。986拆法，EI无论手感还是离散都比te、tu、eu强。舟是补码字根，也可以理解成双码字根
+单：丷日十J。86、98拆法。没有󰉬字根，此字根的存在会造成拆分歧义，比如“果”为什么不取大优先，拆成󰉬人。
+面：丆囗（刂二）。98拆法。
+养：丶〢。986拆法。
+盛：戊乛皿。98拆法。
+
+    */})
+    raw_area.appendChild(span)
+}
+//
+function display_release_note() {
+    reset_timer()
+    clear_tabs_background(999)
+    clear_raw_area()
+    enable_user_input(false)
+    raw_area.style.fontSize = "24px"
+    raw_area.style.fontHeight = "24px"
+    var span = document.createElement("span")
+    span.innerHTML = hereDoc(function () {/*
+<div align=left>
+
+
+请注意：需要安装986字体以显示全部字根（方法1：右键字体文件986WB.otf点“安装”。方法2：将986WB.otf复制到windows/fonts目录下）。
+<br>如找不到字体文件，可在下列地址或986五笔群下载（群号1170494758）。
+</p>
+本工具需要在英文状态下使用。
+</p>
+986五笔（五笔986版）资料下载地址：<br>
+<p>
+<a href="http://986wb.ysepan.com">
+永硕E盘（986五笔资源中心，此为主站）
+</a>
+</p><p>
+<a href="https://pan.baidu.com/s/10zYzBBRYvltj4DOyrDzP_g?pwd=8888">
+百度网盘</a></p><p>
+<a href="https://www.aliyundrive.com/s/hg3NDqKTLF2">
+阿里云盘
+</a></p>
+本练习工具是在MoGu大佬的“徐码字根简码练习_2.5”修改而来，特此感谢！</p>
+
+
+</div>
+    */})
+
+    raw_area.appendChild(span)
+
+
+}
+//
+function timeout() {
+    speed_timer = setTimeout("timeout()", 500)
+    var speed = 0.0
+    var elapsed = new Date().getTime() - start_time
+    if (word_count > 0 && elapsed > 0) {
+        speed = word_count * 60 * 1000 / elapsed
+        speed_label.innerText = "速度：" + speed.toFixed(2) + "字/分"
+    }
+}
+
+function start_timer() {
+    if (speed_timer == null) {
+        start_time = new Date().getTime()
+        timeout()
+    }
+}
+
+function reset_timer() {
+    if (speed_timer != null) {
+        clearTimeout(speed_timer)
+        speed_timer = null
+    }
+}
+
+function get_hardWb_words() {
+    var words = new Array()
+    for (var i = 0; i < hard_map.length; i++)
+    {
+        var objs = hard_map[i]
+        for (var key in objs) {
+            var vlus = objs[key]
+            for (var j = 0; j < vlus.length; j++) {
+                words.push({"key": key, "code": vlus[j]})
+            }
+        }
+    }
+    return words
+}
+
+function get_newWb_words(one, two, third, four, five) {
+    var words = new Array()
+    var curobj = root_map[one]
+    for (var idx in curobj) {
+        words.push({"key": one, "code": curobj[idx]})
+    }
+    curobj = root_map[two]
+    for (var idx in curobj) {
+        words.push({"key": two, "code": curobj[idx]})
+    }
+    curobj = root_map[third]
+    for (var idx in curobj) {
+        words.push({"key": third, "code": curobj[idx]})
+    }
+    curobj = root_map[four]
+    for (var idx in curobj) {
+        words.push({"key": four, "code": curobj[idx]})
+    }
+    curobj = root_map[five]
+    for (var idx in curobj) {
+        words.push({"key": five, "code": curobj[idx]})
+    }
+    return words
+}
+//
+function get_newWb_words_6(one, two, third, four, five,six) {
+    var words = new Array()
+    var curobj = root_map[one]
+    for (var idx in curobj) {
+        words.push({"key": one, "code": curobj[idx]})
+    }
+    curobj = root_map[two]
+    for (var idx in curobj) {
+        words.push({"key": two, "code": curobj[idx]})
+    }
+    curobj = root_map[third]
+    for (var idx in curobj) {
+        words.push({"key": third, "code": curobj[idx]})
+    }
+    curobj = root_map[four]
+    for (var idx in curobj) {
+        words.push({"key": four, "code": curobj[idx]})
+    }
+    curobj = root_map[five]
+    for (var idx in curobj) {
+        words.push({"key": five, "code": curobj[idx]})
+    }
+    curobj = root_map[six]
+    for (var idx in curobj) {
+        words.push({"key": six, "code": curobj[idx]})
+    }
+
+    return words
+}
+//
+function get_newWb_words_(one, two, third, four, five,six,seven) {
+    var words = new Array()
+    var curobj = root_map[one]
+    for (var idx in curobj) {
+        words.push({"key": one, "code": curobj[idx]})
+    }
+    curobj = root_map[two]
+    for (var idx in curobj) {
+        words.push({"key": two, "code": curobj[idx]})
+    }
+    curobj = root_map[third]
+    for (var idx in curobj) {
+        words.push({"key": third, "code": curobj[idx]})
+    }
+    curobj = root_map[four]
+    for (var idx in curobj) {
+        words.push({"key": four, "code": curobj[idx]})
+    }
+    curobj = root_map[five]
+    for (var idx in curobj) {
+        words.push({"key": five, "code": curobj[idx]})
+    }
+    curobj = root_map[six]
+    for (var idx in curobj) {
+        words.push({"key": six, "code": curobj[idx]})
+    }
+    curobj = root_map[seven]
+    for (var idx in curobj) {
+        words.push({"key": seven, "code": curobj[idx]})
+    }
+    return words
+}
+function get_all_words() {
+    var words = new Array()
+    var s1 = "gfdsahjklmtrewqyuiopnbvcx"
+    var s2array = s1.split('')
+s2array[25]="ei"
+s2array[26]="wv"
+s2array[27]="nv"
+    for (var i = 0; i < 28; i++) {
+        var curobj = root_map[s2array[i]]
+        for (var idx in curobj) {
+            words.push({"key": s2array[i], "code": curobj[idx]})
+        }
+    }
+    return words
+}
+/*
+//字根展示
+function get_root_words(begch, endch) {
+    var words = new Array()
+    var achar_code = 'a'.charCodeAt(0)
+    if (endch == ';') {
+	    var beg = begch.charCodeAt(0) - achar_code
+	    var end = 'z'.charCodeAt(0) - achar_code + 1 + 1
+    } else {
+	    var beg = begch.charCodeAt(0) - achar_code
+	    var end = endch.charCodeAt(0) - achar_code + 1
+    }
+    for (var i = beg; i < end; i++) {
+        var objs = root_map[i]
+        if (endch == ';' && i >= 28) {
+        	var key = ';'
+        } else {
+        	var key = String.fromCharCode(achar_code + i)
+        }
+        var curobj = objs[key]
+        for (var idx in curobj) {
+            words.push({ "key": key, "code": curobj[idx]})
+        }
+    }
+    return words
+}*/
+
+function next_words() {
+    var last_count = total_words.length - total_index
+    if (last_count <= 0) {
+        return false
+    }
+
+    var word_need = Math.min(last_count, get_setup_count("one_time_count"))
+    cur_input_max = word_need
+    cur_input_index = 0
+    clear_raw_area()
+
+    var target_words = total_words.slice(total_index, total_index + word_need)
+    for (idx in target_words) {
+        var span = document.createElement("span")
+        word = target_words[idx]
+        span.innerText = word.code + " "
+        span.setAttribute("key", word.key)
+        span.id = "word" + idx
+        span.style.color = "lightgrey"
+        raw_area.appendChild(span)
+    }
+    total_index += word_need
+
+    return true
+}
+
+function get_setup_count(id) {
+    var node = document.getElementById(id)
+    return parseInt(node.value)
+}
+
+function gen_shuttled(size) {
+    var array = new Array()
+    for (var i = 0; i < size; i++) {
+        array.push(i)
+    }
+    for (var i = 0; i < size; i++) {
+        var idx = Math.floor(Math.random() * size)
+        var tmp = array[idx]
+        array[idx] = array[i]
+        array[i] = tmp
+    }
+    return array
+}
+
+function gen_randoms(size, beg, end) {
+    var count = end - beg
+    var array = new Array()
+    for (var i = 0; i < size; i++) {
+        array.push(Math.floor(Math.random() * count + beg))
+    }
+    return array
+}
+
+function get_option() {
+    var radios = document.getElementsByName("radiobutton")
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            return i
+        }
+    }
+}
+
+function is_hint_option_checked() {
+    var checked = document.getElementsByName("key_hint_checkbox")[0].checked
+    return checked
+}
+
+function key_hint() {
+    if (user_input.getAttribute("disabled") != "true") {
+        if (is_hint_option_checked()) {
+            var word = document.getElementById("word" + cur_input_index)
+            var key = word.getAttribute("key")
+            user_input.setAttribute("placeholder", key)
+        } else {
+            user_input.setAttribute("placeholder", "")
+        }
+    }
+}
+
+function user_input_change() {
+    if (cur_input_index >= cur_input_max)
+        return
+
+    var word = document.getElementById("word" + cur_input_index)
+    var key = word.getAttribute("key")
+    var val = user_input.value
+    if (val[val.length-1] == " " || val[val.length-1] == ";" || val.length == key.length) {
+        if (val.toLowerCase() == key) {
+            start_timer()
+            cur_input_index++
+            word_count++
+            total_label.innerText = "\t进度：" + word_count + "/" + total_words.length + "字"
+            word.style.color = "black"
+            user_input.setAttribute("placeholder", "")
+        } else {
+            word.style.color = "red"
+            user_input.setAttribute("placeholder", key)
+        }
+        user_input.value = ""
+
+        if (cur_input_index >= cur_input_max) {
+            if (!next_words()) {
+                user_input.setAttribute("disabled", "true")
+                reset_timer()
+            }
+        }
+        
+        key_hint()
+    }
+    // console.log(word)
+    // console.log(word.getAttribute("key"))
+}
+
+function hereDoc(f) {　
+    return f.toString().replace(/^[^\/]+\/\*!?\s?/, '').replace(/\*\/[^\/]+$/, '');
+}
+
+function clear_tabs_background(activate_idx) {
+    var tabs = document.getElementsByClassName("tab")
+    for (var idx in tabs) {
+        if (tabs[idx].style) {
+            tabs[idx].style.backgroundColor = "#70aba6"
+            tabs[idx].style.boxShadow="0 0 black"
+        }
+    }
+    if (activate_idx != null) {
+        var tab = document.getElementById("tab" + activate_idx)
+        tab.style.backgroundColor = "white"
+        tab.style.boxShadow="inset 0 0 7px 0px blue"
+    }
+}
+
+function msover(idx) {
+    //console.log(idx)
+    var tab = document.getElementById(idx);
+    if (!/inset/.exec(tab.style.boxShadow)){
+        tab.style.backgroundColor = "white"
+        tab.style.boxShadow = "0 0 10px 0px yellow"
+    } else {
+        tab.style.backgroundColor = "white"
+        tab.style.boxShadow="inset 0 0 7px 0px Red"
+    }
+}
+
+function msdown(idx) {
+    var tab = document.getElementById(idx);
+    if (!/inset/.exec(tab.style.boxShadow)){
+        tab.style.backgroundColor = "white"
+        tab.style.boxShadow = "inset 0 0 7px 0px Red"
+    }
+}
+
+function msout(idx) {
+    var tab = document.getElementById(idx);
+    if (!/inset/.exec(tab.style.boxShadow))
+    {
+        tab.style.backgroundColor = "#70aba6"
+        tab.style.boxShadow="0 0 black"
+    } else {
+        tab.style.backgroundColor = "white"
+        tab.style.boxShadow="inset 0 0 7px 0px black"
+    }
+}
+
+function enable_user_input(val) {
+    if (val) {
+        user_input.style.display = "block"
+        main_top.style.display = "block"
+
+    } else {
+        user_input.style.display = "none"
+        main_top.style.display = "none"
+    }
+    user_input.value = ""
+}
+
+function clear_raw_area() {
+    while (raw_area.hasChildNodes()) {
+        raw_area.removeChild(raw_area.lastChild);
+    }
+}
+
+</script>
+<style>
+html { font-family: '986WB', 'Times New Roman', Times, serif; }
+
+aside {
+    text-align: center;
+    width: 160px;
+    height: 100%;
+    background-color: #70aba6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 130%;
+    cursor: default;
+}
+
+.textarea {
+    width: 98%;
+    min-height: 300px;
+    padding: 8px;
+    outline: 0;
+    border: none;
+    word-wrap: normal;
+    overflow-y: visible;
+    resize: none;
+
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.3), 0 0 16px rgba(82, 168, 236, 1);
+}
+
+.spinner, #user_input {
+    padding: 5px;
+    outline: 0;
+    border: 2px solid #a0b3d6;
+
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1), 0 0 16px rgba(82, 168, 236, 0.6);
+}
+
+/*.tab:hover {
+    background-color: white !important;
+    box-shadow: 0 0 10px 0px black !important;
+}
+
+.tab:active {
+    background-color: white !important;
+    box-shadow:inset 0 0 7px 0px red !important;
+}
+
+.tab:visited {
+    background-color: white !important;
+    box-shadow:inset 0 0 7px 0px black !important;
+}*/
+
+.tab {
+    padding: 6px;
+}
+
+#content {
+    padding-left: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#maintop {
+    padding-left: 170px;
+    line-height: 35px;
+}
+
+#aside_title {
+    font-size: 220%;
+    padding: 20px;
+    text-shadow: 8px 7px 14px black;
+    box-shadow: 0 0 0px 0px black;
+    color: #80c5f9;
+    font-family: "楷体";
+}
+
+#author {
+    font-size: 100%;
+    padding: 4px;
+    padding-top: 15px;
+    color: #fbfcff;
+    text-shadow: 8px 7px 14px black;
+    text-align: center;
+    /* background-color: white; */
+    box-shadow: inset 0 0 0px 0px black;
+}
+
+#user_input {
+    margin-top: 20px;
+    align-self: center;
+    height: 80px;
+    width: 90px;
+    margin-left: 42%;
+    align-content: center;
+    font-size: 300%;
+}
+</style> 
+</head>
+
+<body onload="main()">
+    <aside>
+        <div id="aside_title">986<br>五笔</div>
+        
+        <div class="tab" id="tab0" onmousedown="msdown('tab0')" onmouseout="msout('tab0')" onmouseover="msover('tab0')" onclick="display_help()">快速入门</div>
+        <div class="tab" id="tab1" onmousedown="msdown('tab1')" onmouseout="msout('tab1')" onmouseover="msover('tab1')" onclick="choose_root(1)">横区字根</div>
+        <div class="tab" id="tab2" onmousedown="msdown('tab2')" onmouseout="msout('tab2')" onmouseover="msover('tab2')" onclick="choose_root(2)">竖区字根</div>
+        <div class="tab" id="tab3" onmousedown="msdown('tab3')" onmouseout="msout('tab3')" onmouseover="msover('tab3')" onclick="choose_root(3)">撇区字根</div>
+        <div class="tab" id="tab4" onmousedown="msdown('tab4')" onmouseout="msout('tab4')" onmouseover="msover('tab4')" onclick="choose_root(4)">捺区字根</div>
+        <div class="tab" id="tab5" onmousedown="msdown('tab5')" onmouseout="msout('tab5')" onmouseover="msover('tab5')" onclick="choose_root(5)">折区字根</div>
+        <div class="tab" id="tab6" onmousedown="msdown('tab6')" onmouseout="msout('tab6')" onmouseover="msover('tab6')" onclick="choose_root(6)">全部字根</div>
+        <div class="tab" id="tab7" onmousedown="msdown('tab7')" onmouseout="msout('tab7')" onmouseover="msover('tab7')" onclick="choose_root(7)">易错字练习</div>
+        <div class="tab" id="tab8" onmousedown="msdown('tab8')" onmouseout="msout('tab8')" onmouseover="msover('tab8')" onclick="display_86help()">86用户请看</div>
+        <div class="tab" id="tab9" onmousedown="msdown('tab9')" onmouseout="msout('tab9')" onmouseover="msover('tab9')" onclick="display_98help()">98用户请看</div>
+        <div class="tab" id="tab10" onmousedown="msdown('tab10')" onmouseout="msout('tab10')" onmouseover="msover('tab10')" onclick="display_06help()">新世纪用户请看</div>
+        <div class="tab" id="tab999" onmousedown="msdown('tab999')" onmouseout="msout('tab999')" onmouseover="msover('tab999')" onclick="display_release_note()">声明</div>
+        <div id="author">by 吟枫舞墨</div>
+
+    </aside> 
+    <div id="maintop">
+        <br>
+        <label>单次字根数：</label>
+        <input id="one_time_count" class="spinner" type="number", min="10", max="500", value="80">
+        <label>练习字根数：</label>
+        <input id="total_count" class="spinner" type="number", min="10", max="500", value="300">
+        </br>
+        <input type="radio" name="radiobutton" onclick="choose_root(cur_tab)" checked="">顺序单次</input>
+        <input type="radio" name="radiobutton" onclick="choose_root(cur_tab)">乱序单次</input>
+        <input type="radio" name="radiobutton" onclick="choose_root(cur_tab)">乱序重复</input>
+        <input type="checkbox" name="key_hint_checkbox" onclick="key_hint()" checked="">编码提示</input>
+        <br>
+        <label id="totallabel"></label>
+        <label id="speedlabel"></label>
+        </br>
+    </div>
+    <div id="content">
+        <div class="textarea", id="raw_area"></div>
+        <input id="user_input" oninput="user_input_change()">
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: wubi986
+  name: 986五笔
+  version: "21.142"
+  author:
+    - 吟枫舞墨
+  description: |
+    五笔986版
+  dependencies:
+    - pinyin_simp
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: extended_charset
+    states: [ 常用, 扩展 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@temp_en
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+    - history_translator@history
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " ;'"
+  max_code_length: 4 # 最长4码
+  auto_select: true # 四码唯一上屏关闭，改为true开启
+
+translator:
+  dictionary: wubi986
+  enable_user_dict: false  #固定詞序
+
+# 先输入Z键再输入拼音可实现反查五笔编码
+reverse_lookup:
+  dictionary: pinyin_simp
+  prefix: "z"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+temp_en:
+  tag: temp_en
+  prefix: ";"
+  tips: 〔英文〕
+    
+punctuator:
+  import_preset: symbols
+  symbols:
+    # 这里可以自定义一些快捷输入，格式如下
+    "/pi": ["π"]
+    # 默认情况下大写数字是繁体，这里把“叄”和“陸”改成简体字，其它不用变
+    "/3": ["三", "叁", "₃", "³", "Ⅲ", "ⅲ", "③", "➂", "❸", "➌", "⓷", "⑶", "⒊", "３", "㊂", "㈢", "參", "参", "叁", "弎", "仨", "㆔"]
+    "/6": ["六", "陆", "₆", "⁶", "Ⅵ", "ⅵ", "⑥", "➅", "❻", "➏", "⓺", "⑹", "⒍", "６", "㊅", "㈥", "ↅ"]
+    
+  half_shape:
+    # 如果不喜欢下面的设定可以删除，或者在前面加“#”，就变成了默认设置
+    "/": ["/", "／", "÷"]  # 修改"/"键的默认设定
+    "@": "@"  # 修改为，"@"直接上屏
+    "#": "#"  # 修改为，"#"直接上屏"#"
+    "\\": "、"  # 修改为，"\"直接上屏顿号
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    reverse_lookup: "^z[a-z]*'?$"
+    temp_en: "^;.*$"
+
+# Z键重复录入
+history:
+  input: z
+  size: 1
+  initial_quality: 9999
