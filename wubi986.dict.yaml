@@ -1206,6 +1206,7 @@ agnn	㤍	9
 agno	䲾	9
 agnv	㚽	9
 agny	戈	9999
+agny	弋	9998
 agny	工于心计	1200
 agny	瓨	200
 agny	䛒	9
@@ -4663,7 +4664,6 @@ ayh	苄	2999
 ayhb	芳龄	1182
 ayhg	虀	200
 ayhu	苄	999
-ayi	弋	4999
 ayia	荒漠	2384
 ayia	蓄洪	1200
 ayic	芳泽	1143
@@ -10968,6 +10968,7 @@ dgtd	狂乱	1267
 dgte	硬笔	1189
 dgtf	逛街	3426
 dgtf	三等	1684
+dgtg	石	9999
 dgth	狂徒	1842
 dgtk	三种	3948
 dgtl	三年	1200
@@ -10975,6 +10976,7 @@ dgtm	硬币	1792
 dgtq	古筝	1255
 dgtr	古稀	1646
 dgtt	狂笑	1345
+dgty	犬	9999
 dgty	戊	4999
 dgu	砰	9999
 dgu	狭	9998
@@ -11813,7 +11815,6 @@ dkbb	石子	1697
 dkbg	右耳	1200
 dkbw	石阶	1454
 dkck	石台	1200
-dkd	石	9999
 dkd	右	999
 dkda	石砌	1200
 dkdj	石狮	1200
@@ -14238,7 +14239,6 @@ dyhi	碎步	1184
 dyho	太虚	1277
 dyhp	唇亡齿寒	1156
 dyhy	犿	200
-dyi	犬	9999
 dyi	戍	4999
 dyi	太	999
 dyib	太学	1238
@@ -19042,6 +19042,7 @@ fghw	干瞪	1200
 fghw	雨具	1172
 fghx	干柴	1225
 fghy	雨	9999
+fghy	寸	9998
 fghy	圷	2
 fgi	坏	9999
 fgia	干渠	1328
@@ -22514,7 +22515,6 @@ fyfw	才识过人	1200
 fyfy	寸寸	1200
 fyh	填充物	987
 fyhq	填充物	1175
-fyi	寸	9999
 fyi	圡	200
 fyif	坑洼	1333
 fyiq	壕沟	1337
@@ -98210,8 +98210,6 @@ yfjg	諸	200
 yfjh	讲	999
 yfjp	言过其实	1260
 yfk	言	9999
-yfkf	言	999
-yfkf	訁	200
 yfkg	诘	4999
 yfkg	詰	200
 yfkk	譆	200
@@ -101689,6 +101687,8 @@ yyga	方形	2216
 yyga	文武	1866
 yyge	文静	1456
 yygf	文玩	1145
+yygg	言	999
+yygg	訁	200
 yygg	方方正正	1195
 yygg	註	200
 yygg	吂	200
