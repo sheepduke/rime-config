@@ -54,7 +54,8 @@ speller:
 
 translator:
   dictionary: wubi986
-  enable_user_dict: false  #固定詞序
+  enable_sentence: false                # 句子输入模式
+  enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
 
 # 先输入Z键再输入拼音可实现反查五笔编码
 reverse_lookup:
