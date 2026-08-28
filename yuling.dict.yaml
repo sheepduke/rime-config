@@ -16,8 +16,12 @@ import_tables:
   - yuhao/yuling.full
   # 以下是高優先級用户自定义詞庫
   - yuhao/yuhao.private
+  # 以下是灵明自定义码
+  - yuhao/yuling.private
   # 以下是字根提示
   - yuhao/yuling.roots
+  # 旧版取码规则的词库
+  # - yuhao/yuling.words_legacy
   # 以下是宇浩極簡千詞詞庫
   - yuhao/yuling_sc.words_essence
   - yuhao/yuling.words_essence
