@@ -51367,6 +51367,7 @@ columns:
 反侧	fan ce	0
 反側	fan ce	0
 反差	fan cha	507
+反查	fan cha	100
 梵刹	fan cha	0
 梵剎	fan cha	0
 翻唱	fan chang	564
@@ -122647,8 +122648,8 @@ columns:
 靈敏	ling min	407
 灵敏度	ling min du	260
 靈敏度	ling min du	260
-灵明	ling ming	0
-靈明	ling ming	0
+灵明	ling ming	100
+靈明	ling ming	100
 領命	ling ming	0
 领命	ling ming	0
 領抹	ling mo	0
@@ -156904,6 +156905,7 @@ columns:
 清越	qing yue	0
 青云	qing yun	440
 青雲	qing yun	440
+卿雲	qing yun	100
 庆云	qing yun	0
 情韵	qing yun	0
 情韻	qing yun	0
@@ -218391,6 +218393,7 @@ columns:
 行略	xing lve	0
 行吗	xing ma	1129
 行嗎	xing ma	1129
+形碼	xing ma	100
 星妈	xing ma	0
 星媽	xing ma	0
 星馬	xing ma	0
@@ -231098,7 +231101,7 @@ columns:
 伊拉克队	yi la ke dui	0
 伊拉克隊	yi la ke dui	0
 伊拉克人	yi la ke ren	125
-伊拉斯姆斯	yi la si mu si	0
+伊拉斯姆斯	yi la si mu si	100
 以來	yi lai	8201
 以来	yi lai	8201
 依賴	yi lai	3302
@@ -240570,10 +240573,10 @@ columns:
 餘杭區	yu hang qu	0
 宇航员	yu hang yuan	326
 宇航員	yu hang yuan	326
-宇浩	yu hao	0
+宇浩	yu hao	100
 愈好	yu hao	0
-宇浩系列輸入法	yu hao xi lie shu ru fa	0
-宇浩系列输入法	yu hao xi lie shu ru fa	0
+宇浩系列輸入法	yu hao xi lie shu ru fa	1
+宇浩系列输入法	yu hao xi lie shu ru fa	1
 愈合	yu he	457
 癒合	yu he	457
 于何	yu he	0
@@ -261509,7 +261512,7 @@ columns:
 助於	zhu yu	0
 珠玉	zhu yu	0
 茱萸	zhu yu	0
-朱宇浩	zhu yu hao	0
+朱宇浩	zhu yu hao	100
 珠玉在傍	zhu yu zai pang	0
 住院	zhu yuan	1689
 祝愿	zhu yuan	992

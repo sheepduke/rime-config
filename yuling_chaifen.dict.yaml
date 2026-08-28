@@ -4,7 +4,7 @@
 # 靈明·全漢字拆分表
 # 官方拆分表
 # 朱宇浩 發明
-# 版本 20260705
+# 版本 20260718
 
 # 介紹：
 # 本拆分表包含CJK基本區、CJK擴展A至H區、部首區、兼容區、筆畫區所有漢字的全漢字拆分。
@@ -21,7 +21,7 @@
 
 ---
 name: "yuling_chaifen"
-version: 20260705
+version: 20260718
 sort: original
 columns:
   - text
@@ -1097,7 +1097,6 @@ columns:
 㐀	[艹一,QFi,Qi-Fi,qiū,,CJK-A,3400]
 㐁	[一囗人,FNNe,Fi-Nwe-Ne,tiàn,,古-CJK-A,3401]
 㐂	[七七七,MMMi,Mi-Mi-Mi,,,CJK-A,3402]
-㐂󠄁	[匕匕匕,TTTi,Ti-Ti-Ti,,㊕變體㐂,CJK-A,3402+E0101]
 㐃	[人丅,NHdi,Ne-Hdi,,,CJK-A,3403]
 㐄	[㐄,Ska,Ska,kuà,,古-CJK-A,3404]
 㐅	[乂,Bi,Bi,wǔ,,CJK-A,3405]
@@ -15729,7 +15728,6 @@ columns:
 浧	[氵口王,VDYa,Vi-Do-Ya,yǐng_chéng_yíng_zhèng_yìng,,臺古-CJK,6D67]
 浨	[氵宀木,VKXu,Vi-Ka-Xu,lǎn,,CJK,6D68]
 浩	[氵⺧口,VWDo,Vi-Wo-Do,hào_gǎo_gé,,陸臺古-CJK,6D69]
-浩󠄁	[氵牛口,VSDo,Vi-Snu-Do,,㊕變體浩,CJK,6D69+E0101]
 浪	[氵丶艮,VTGg,Vi-Tu-Gge,làng_láng,,陸臺古-CJK,6D6A]
 浫	[氵冖八干,VBLL,Vi-Bi-La-Lga,hǎn,,CJK,6D6B]
 浬	[氵里,VXli,Vi-Xli,lǐ_hǎi,,陸臺-CJK,6D6C]
@@ -18173,15 +18171,6 @@ columns:
 盲	[亡目,KwDm,Kwa-Dmu,máng,,陸臺古-CJK,76F2]
 盳	[目亡,DmKw,Dmu-Kwa,wàng_máng,,臺古-CJK,76F3]
 直	[十{具上},LVo,Li-Vo,zhí,,陸臺古-CJK,76F4]
-直󠄁	[十目乚,LDWi,Li-Dmu-Wi,,㊕變體直,CJK,76F4+E0101]
-直󠄂	[十目乚,LDWi,Li-Dmu-Wi,,㊕變體直,CJK,76F4+E0102]
-直󠄃	[十目丄,LDKa,Li-Dmu-Ka,,㊕變體直,CJK,76F4+E0103]
-直󠄄	[十{具上},LVo,Li-Vo,,㊕變體直,CJK,76F4+E0104]
-直󠄅	[十冂三一,LLJF,Li-Ljo-Jsa-Fi,,㊕變體直,CJK,76F4+E0105]
-直󠄆	[亠{具上},JVo,Jo-Vo,,㊕變體直,CJK,76F4+E0106]
-直󠄇	[ナ目乚,MvDW,Mvo-Dmu-Wi,,㊕變體直,CJK,76F4+E0107]
-直󠄈	[十冂二...一,LLRF,Li-Ljo-Rje-Fi,,㊕變體直,CJK,76F4+E0108]
-直󠄉	[十月丨丄,LLKK,Li-Le-Ki-Ka,,㊕變體直,CJK,76F4+E0109]
 盵	[目{乞上}乙,DmNW,Dmu-No-Wi,qì,,CJK,76F5]
 盶	[目一兀,DmFN,Dmu-Fi-Nwu,yuǎn,,CJK,76F6]
 盷	[目勹冫,DmPR,Dmu-Pa-Rje,tián_xián_mín,,陸臺古-CJK,76F7]
@@ -40100,6 +40089,7 @@ columns:
 	[巳,Csi,Csi,,宇🈑民框,宇浩部件,F812]
 	[己,Cji,Cji,,宇🈑改左,宇浩部件,F814]
 	[卩,Jje,Jje,,,宇浩部件,F821]
+	[丱,Jga,Jga,,,宇浩部件,F825]
 	[丱一,JgFi,Jga-Fi,,,宇浩部件,F826]
 	[コ〢,VKi,Vo-Ki,,,宇浩部件,F827]
 	[{发左},Ju,Ju,,宇🈑㐄無一,宇浩部件,F828]
@@ -109460,7 +109450,7 @@ columns:
 具	[目一八,DmFL,Dmu-Fi-La,,≡5177具,兼容文字補充,2F811]
 𠔜	[臼丄八,PKLa,Pu-Ka-La,,,兼容文字補充,2F812]
 㒹	[匕目乚...八,TDWL,Ti-Dmu-Wi-La,,≡34B9㒹,兼容文字補充,2F813]
-內	[冂人,LjNe,Ljo-Ne,,,兼容文字補充,2F814]
+內	[冂入,LjJr,Ljo-Jru,,→5185内 ≡5167內 ~5167FE00內︀,兼容文字補充,2F814]
 再	[一冂土,FLSu,Fi-Ljo-Su,,,兼容文字補充,2F815]
 𠕋	[{周框}{周框}二,PPRj,Pa-Pa-Rje,,≡2054B𠕋,兼容文字補充,2F816]
 冗	[冖几,BKji,Bi-Kji,,,兼容文字補充,2F817]
@@ -109699,7 +109689,7 @@ columns:
 派	[氵⺁{衣下},VRFo,Vi-Ri-Fo,,,兼容文字補充,2F900]
 海	[氵{乞上}母,VNFm,Vi-No-Fmu,,,兼容文字補充,2F901]
 流	[氵亠厶{荒下},VJGP,Vi-Jo-Gi-Pe,,,兼容文字補充,2F902]
-浩	[氵⺧口,VWDo,Vi-Wo-Do,,≡6D69浩,兼容文字補充,2F903]
+浩	[氵牛口,VSDo,Vi-Snu-Do,,≡6D69浩 ~6D69+FE00浩︀,兼容文字補充,2F903]
 浸	[氵彐冖又,VBBQ,Vi-Bo-Bi-Qo,,,兼容文字補充,2F904]
 涅	[氵日工,VHGo,Vi-Hri-Go,,,兼容文字補充,2F905]
 𣴞	[氵八刀土,VLVS,Vi-La-Va-Su,,,兼容文字補充,2F906]
@@ -123121,7 +123111,7 @@ columns:
 𳍕	[魚人...土,SyNS,Syu-Ne-Su,,,CJK-J,33355]
 𳍖	[{亮上}魚,CgSy,Cga-Syu,,,CJK-J,33356]
 𳍗	[魚文寸,SyHJ,Syu-Hwe-Jcu,,,CJK-J,33357]
-𳍘	[魚,Syu,Syu,,,CJK-J,33358]
+𳍘	[魚{龍右},SyRo,Syu-Ro,,,CJK-J,33358]
 𳍙	[魚厂...土,SyFS,Syu-Fa-Su,,,CJK-J,33359]
 𳍚	[王夊魚,YJSy,Ya-Jvi-Syu,,,CJK-J,3335A]
 𳍛	[夊卜...魚,JvRS,Jvi-Rpu-Syu,,,CJK-J,3335B]
