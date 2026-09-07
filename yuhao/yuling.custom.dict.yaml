@@ -1,6 +1,6 @@
 ---
-name: "yuling.private"
-version: 20260820
+name: "yuling.custom"
+version: 20260907
 sort: original
 columns:
   - text
@@ -11,3 +11,4 @@ columns:
 呀	dfa
 啊	dgo
 哈	dne
+任何	jl
