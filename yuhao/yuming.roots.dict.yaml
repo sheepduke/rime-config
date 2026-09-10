@@ -1,0 +1,269 @@
+# encoding: utf-8
+---
+name: "yuming.roots"
+version: "20260302"
+sort: original
+columns:
+  - text
+  - code
+...
+
+日月字根編碼提示	/ry
+輸入對應大碼字母	/ry
+攴灬卜魚瓜虎亦示鹵馬末未爪	/ryb
+飛禾乙乚世生氵來马女又	/ryc
+言已己金口宀母凵廴皮长	/ryd
+牙电鱼匚一甲歹手丂爾面乃而丿	/ryf
+厂貝頁革广夭見九豕扌鹿麻目皿疒牛儿罒黽	/ryg
+贝冊页艮亥冂其辰齒止龰田羽走自	/ryh
+瓦巴寸刀曰丰甶咼工鬼骨日矢上门𬺰臣巛川舟巳夕心早	/ryj
+八白丁入甫戈弓古弋臼彡囗且千彳三之纟戊下辛	/ryk
+匕髟予方非矛干高幺饣了亡曲欠長镸辶正糸亠兀穴小向子	/ryl
+不廾艹龷𠂤也冖耳七丑𠂇	/rym
+丶月缶壬亍厶足	/ryn
+大雨夫犬犭豸	/ryp
+風虫几凡殳卯	/ryq
+鬥黑文卩丌石身立門毛鳥王車烏	/ryr
+户用彐尸舌木二爿片至尤	/rys
+火衤巾十尚𧘇夂由	/ryt
+土讠乂见斤山士米车	/ryv
+隹禺合食申水力人亻僉	/ryw
+丷钅鸟羊乌	/ryx
+刂阝气竹酉西	/ryy
++ bi = 灬	/ryb
++ bu = 卜	/ryb
++ e = 魚	/ryb
++ ga = 瓜	/ryb
++ hu = 虍虎	/ryb
++ i = 亦	/ryb
++ ka = 示	/ryb
++ lu = 鹵	/ryb
++ ma = 馬	/ryb
++ mo = 末	/ryb
++ o = 未	/ryb
++ sa = 爪	/ryb
++ fo = 飛	/ryc
++ he = 禾	/ryc
++ i = 乙乚亅	/ryc
++ ka = 世	/ryc
++ ke = 生	/ryc
++ le = 來	/ryc
++ ma = 马	/ryc
++ ne = 女	/ryc
++ o = 	/ryc
++ u = 又	/ryc
++ e = 言	/ryd
++ i = 已	/ryd
++ ji = 己彑	/ryd
++ jo = 金	/ryd
++ ke = 口	/ryd
++ li = 〇	/ryd
++ me = 宀母	/ryd
++ o = 凵屮廴	/ryd
++ pi = 皮	/ryd
++ re = 长	/ryd
++ a = 牙	/ryf
++ di = 电	/ryf
++ e = 鱼	/ryf
++ fe = 匚	/ryf
++ i = 一	/ryf
++ ja = 甲	/ryf
++ ke = 手	/ryf
++ ki = 丂	/ryf
++ me = 面	/ryf
++ ne = 乃	/ryf
++ o = 而	/ryf
++ pe = 丿	/ryf
++ a = 丆厂	/ryg
++ bo = 貝	/ryg
++ e = 頁	/ryg
++ ge = 革	/ryg
++ go = 广	/ryg
++ i = 夭	/ryg
++ je = 見	/ryg
++ ju = 九	/ryg
++ ka = 豕	/ryg
++ lu = 鹿	/ryg
++ ma = 麻	/ryg
++ me = 目	/ryg
++ mo = 皿	/ryg
++ ne = 疒	/ryg
++ nu = 牛	/ryg
++ o = 儿罒	/ryg
++ bo = 贝	/ryh
++ ce = 冊	/ryh
++ e = 页	/ryh
++ ge = 艮	/ryh
++ he = 亥	/ryh
++ o = 冂勹	/ryh
++ qi = 其	/ryh
++ re = 辰	/ryh
++ ri = 齒	/ryh
++ si = 止	/ryh
++ ti = 田	/ryh
++ xi = 习	/ryh
++ ze = 走	/ryh
++ zi = 自	/ryh
++ a = 瓦	/ryj
++ ba = 巴	/ryj
++ ci = 寸	/ryj
++ di = 刀	/ryj
++ e = 曰	/ryj
++ fe = 丰	/ryj
++ fu = 甶	/ryj
++ ga = 咼	/ryj
++ gi = 工	/ryj
++ go = 鬼	/ryj
++ gu = 骨	/ryj
++ i = 日	/ryj
++ ka = 矢	/ryj
++ ke = 丄上	/ryj
++ me = 门	/ryj
++ o = 	/ryj
++ re = 臣	/ryj
++ ri = 巛巜川	/ryj
++ se = 舟	/ryj
++ si = 巳	/ryj
++ xi = 夕	/ryj
++ xo = 心	/ryj
++ zi = 早	/ryj
++ ba = 八	/ryk
++ be = 白	/ryk
++ di = 丁丅	/ryk
++ e = 入	/ryk
++ fu = 甫	/ryk
++ ge = 戈	/ryk
++ gi = 弓	/ryk
++ gu = 古	/ryk
++ i = 弋	/ryk
++ ju = 臼	/ryk
++ ka = 彡	/ryk
++ li = 里	/ryk
++ o = 囗	/ryk
++ qe = 且	/ryk
++ qi = 千	/ryk
++ qo = 丬	/ryk
++ ri = 彳	/ryk
++ sa = 三	/ryk
++ si = 之	/ryk
++ u = 戊	/ryk
++ xa = 下	/ryk
++ xo = 辛	/ryk
++ bi = 匕髟	/ryl
++ e = 予	/ryl
++ fe = 方	/ryl
++ fo = 非	/ryl
++ ga = 干	/ryl
++ gi = 丨高	/ryl
++ i = 幺	/ryl
++ le = 了	/ryl
++ lo = 	/ryl
++ o = 亡〢〣	/ryl
++ qe = 曲	/ryl
++ qi = 欠	/ryl
++ re = 長镸	/ryl
++ ro = 辶⻍	/ryl
++ se = 正	/ryl
++ si = 糸	/ryl
++ te = 亠	/ryl
++ u = 兀	/ryl
++ xe = 穴	/ryl
++ xi = 小⺌	/ryl
++ xo = 向	/ryl
++ zi = 子孑	/ryl
++ bu = 不	/rym
++ ci = 廾艹	/rym
++ do = 	/rym
++ e = 也	/rym
++ me = 乜	/rym
++ o = 冖耳	/rym
++ qi = 七	/rym
++ re = 丑	/rym
++ sa = 卅	/rym
++ u = 	/rym
++ xi = 卌	/rym
++ zo = 	/rym
++ di = 丶乀	/ryn
++ e = 月	/ryn
++ fe = 缶	/ryn
++ o = 壬	/ryn
++ ru = 亍	/ryn
++ si = 厶	/ryn
++ zu = 足	/ryn
++ da = 大	/ryp
++ di = 	/ryp
++ e = 雨	/ryp
++ fu = 夫	/ryp
++ qi = 犬	/ryp
++ si = 豸	/ryp
++ fe = 風	/ryq
++ gi = 丱	/ryq
++ ho = 虫	/ryq
++ ji = 几	/ryq
++ ku = 殳	/ryq
++ mi = 卯	/ryq
++ o = 丩	/ryq
++ de = 鬥	/ryr
++ ho = 黑	/ryr
++ i = 文	/ryr
++ je = 卩㔾	/ryr
++ ji = 丌	/ryr
++ ka = 石	/ryr
++ ke = 身	/ryr
++ li = 立	/ryr
++ me = 門	/ryr
++ mi = 毛	/ryr
++ ni = 鳥	/ryr
++ o = 王	/ryr
++ re = 車	/ryr
++ u = 烏	/ryr
++ hu = 户戸	/rys
++ i = 用	/rys
++ ji = 彐肀	/rys
++ ka = 尸	/rys
++ ke = 舌	/rys
++ li = 隶	/rys
++ me = 木朩	/rys
++ o = 二尢⺀	/rys
++ pa = 爿	/rys
++ pe = 片	/rys
++ si = 至	/rys
++ u = 尤	/rys
++ ho = 火	/ryt
++ jo = 巾	/ryt
++ ka = 十	/ryt
++ ke = 尚	/ryt
++ o = 	/ryt
++ pe = 夊攵	/ryt
++ u = 由	/ryt
++ du = 土	/ryv
++ e = 业	/ryv
++ hu = 戶	/ryv
++ i = 乂	/ryv
++ je = 见	/ryv
++ jo = 斤	/ryv
++ ka = 山	/ryv
++ ke = 士	/ryv
++ mi = 米	/ryv
++ o = 癶耂	/ryv
++ re = 车	/ryv
++ su = 	/ryv
++ co = 隹	/ryw
++ e = 禺	/ryw
++ he = 合	/ryw
++ ka = 食	/ryw
++ ke = 申	/ryw
++ ko = 水氺	/ryw
++ li = 力	/ryw
++ o = 人	/ryw
++ qi = 僉	/ryw
++ ci = 丷	/ryx
++ ni = 鸟	/ryx
++ o = 羊	/ryx
++ u = 乌	/ryx
++ di = 	/ryy
++ o = 	/ryy
++ qi = 气	/ryy
++ su = 竹	/ryy
++ u = 酉	/ryy
++ xi = 西	/ryy
