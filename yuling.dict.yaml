@@ -22,12 +22,14 @@ import_tables:
   - yuhao/yuling.roots
   # 旧版取码规则的词库
   # - yuhao/yuling.words_legacy
-  # 以下是宇浩極簡千詞詞庫
-  - yuhao/yuling_sc.words_essence
-  - yuhao/yuling.words_essence
+  # 取末根词库
+  - yuhao/yuling_sc.lastroot.words
   # 以下是全碼詞庫
-  - yuhao/yuling_sc.words 
-  - yuhao/yuling_tc.words
+  # - yuhao/yuling_sc.words 
+  # - yuhao/yuling_tc.words
+  # 以下是宇浩極簡千詞詞庫
+  # - yuhao/yuling_sc.words_essence
+  # - yuhao/yuling.words_essence
   # 以下是低優先級用户自定义詞庫
   - yuhao/yuhao.extended
   # 以下是符號
